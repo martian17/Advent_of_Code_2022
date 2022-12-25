@@ -1,0 +1,3 @@
+[submodule "ds-js"]
+	path = ds-js
+	url = git@github.com:martian17/ds-js.git
