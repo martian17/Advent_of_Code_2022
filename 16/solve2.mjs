@@ -145,7 +145,7 @@ let pruneStates = function(states,weights,remtime){
 			}
 		}
 	}
-	if(!test && finalScoreWillBeAtLeast<3015)finalScoreWillBeAtLeast = 3015;
+	//if(!test && finalScoreWillBeAtLeast<3015)finalScoreWillBeAtLeast = 3015;
     for(let [id,bucket] of states){
         let bucket1 = [];
         for(let state of bucket){
