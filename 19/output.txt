@@ -1,0 +1,2821 @@
+[ [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ], null, true ] ]
+1 Before Prune 1
+1 After  Prune 1
+2 Before Prune 1
+2 After  Prune 1
+3 Before Prune 1
+3 After  Prune 1
+4 Before Prune 2
+4 After  Prune 2
+5 Before Prune 2
+5 After  Prune 2
+6 Before Prune 3
+6 After  Prune 3
+7 Before Prune 5
+7 After  Prune 5
+8 Before Prune 8
+8 After  Prune 8
+9 Before Prune 17
+9 After  Prune 17
+10 Before Prune 30
+10 After  Prune 30
+11 Before Prune 61
+11 After  Prune 58
+12 Before Prune 117
+12 After  Prune 109
+13 Before Prune 202
+13 After  Prune 186
+14 Before Prune 349
+14 After  Prune 315
+15 Before Prune 578
+15 After  Prune 517
+16 Before Prune 1018
+16 After  Prune 913
+17 Before Prune 2069
+17 After  Prune 1829
+18 Before Prune 4444
+18 After  Prune 3928
+19 Before Prune 9879
+19 After  Prune 8541
+20 Before Prune 21937
+20 After  Prune 18761
+21 Before Prune 47978
+21 After  Prune 40272
+22 Before Prune 101426
+22 After  Prune 83237
+23 Before Prune 208337
+23 After  Prune 169097
+24 Before Prune 419080
+24 After  Prune 419080
+max: 0 [
+  [ 20, 0, 0, 0 ],
+  [ 141, 0, 0, 0 ],
+  [
+    [ 19, 0, 0, 0 ],
+    [ 125, 0, 0, 0 ],
+    [ [Array], [Array], [Array], true ],
+    true
+  ],
+  true
+]
+
+**************************
+0 [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ] ]
+1 [ [ 1, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+2 [ [ 1, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+3 [ [ 1, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+4 [ [ 2, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+5 [ [ 2, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+6 [ [ 3, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+7 [ [ 3, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+8 [ [ 4, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+9 [ [ 5, 0, 0, 0 ], [ 6, 0, 0, 0 ] ]
+10 [ [ 6, 0, 0, 0 ], [ 8, 0, 0, 0 ] ]
+11 [ [ 7, 0, 0, 0 ], [ 11, 0, 0, 0 ] ]
+12 [ [ 8, 0, 0, 0 ], [ 15, 0, 0, 0 ] ]
+13 [ [ 9, 0, 0, 0 ], [ 20, 0, 0, 0 ] ]
+14 [ [ 10, 0, 0, 0 ], [ 26, 0, 0, 0 ] ]
+15 [ [ 11, 0, 0, 0 ], [ 33, 0, 0, 0 ] ]
+16 [ [ 12, 0, 0, 0 ], [ 41, 0, 0, 0 ] ]
+17 [ [ 13, 0, 0, 0 ], [ 50, 0, 0, 0 ] ]
+18 [ [ 14, 0, 0, 0 ], [ 60, 0, 0, 0 ] ]
+19 [ [ 15, 0, 0, 0 ], [ 71, 0, 0, 0 ] ]
+20 [ [ 16, 0, 0, 0 ], [ 83, 0, 0, 0 ] ]
+21 [ [ 17, 0, 0, 0 ], [ 96, 0, 0, 0 ] ]
+22 [ [ 18, 0, 0, 0 ], [ 110, 0, 0, 0 ] ]
+23 [ [ 19, 0, 0, 0 ], [ 125, 0, 0, 0 ] ]
+24 [ [ 20, 0, 0, 0 ], [ 141, 0, 0, 0 ] ]
+**************************
+
+0
+#1
+[ [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ], null, true ] ]
+1 Before Prune 1
+1 After  Prune 1
+2 Before Prune 1
+2 After  Prune 1
+3 Before Prune 1
+3 After  Prune 1
+4 Before Prune 1
+4 After  Prune 1
+5 Before Prune 2
+5 After  Prune 2
+6 Before Prune 2
+6 After  Prune 2
+7 Before Prune 2
+7 After  Prune 2
+8 Before Prune 3
+8 After  Prune 3
+9 Before Prune 5
+9 After  Prune 5
+10 Before Prune 8
+10 After  Prune 8
+11 Before Prune 11
+11 After  Prune 11
+12 Before Prune 24
+12 After  Prune 24
+13 Before Prune 41
+13 After  Prune 40
+14 Before Prune 81
+14 After  Prune 78
+15 Before Prune 143
+15 After  Prune 135
+16 Before Prune 264
+16 After  Prune 247
+17 Before Prune 456
+17 After  Prune 418
+18 Before Prune 915
+18 After  Prune 833
+19 Before Prune 1964
+19 After  Prune 1782
+20 Before Prune 4672
+20 After  Prune 4186
+21 Before Prune 11157
+21 After  Prune 9839
+22 Before Prune 26576
+22 After  Prune 22776
+23 Before Prune 60254
+23 After  Prune 50614
+24 Before Prune 132988
+24 After  Prune 132988
+max: 0 [
+  [ 18, 0, 0, 0 ],
+  [ 96, 0, 0, 0 ],
+  [
+    [ 17, 0, 0, 0 ],
+    [ 83, 0, 0, 0 ],
+    [ [Array], [Array], [Array], true ],
+    true
+  ],
+  true
+]
+
+**************************
+0 [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ] ]
+1 [ [ 1, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+2 [ [ 1, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+3 [ [ 1, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+4 [ [ 1, 0, 0, 0 ], [ 4, 0, 0, 0 ] ]
+5 [ [ 2, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+6 [ [ 2, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+7 [ [ 2, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+8 [ [ 3, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+9 [ [ 3, 0, 0, 0 ], [ 6, 0, 0, 0 ] ]
+10 [ [ 4, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+11 [ [ 5, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+12 [ [ 6, 0, 0, 0 ], [ 6, 0, 0, 0 ] ]
+13 [ [ 7, 0, 0, 0 ], [ 8, 0, 0, 0 ] ]
+14 [ [ 8, 0, 0, 0 ], [ 11, 0, 0, 0 ] ]
+15 [ [ 9, 0, 0, 0 ], [ 15, 0, 0, 0 ] ]
+16 [ [ 10, 0, 0, 0 ], [ 20, 0, 0, 0 ] ]
+17 [ [ 11, 0, 0, 0 ], [ 26, 0, 0, 0 ] ]
+18 [ [ 12, 0, 0, 0 ], [ 33, 0, 0, 0 ] ]
+19 [ [ 13, 0, 0, 0 ], [ 41, 0, 0, 0 ] ]
+20 [ [ 14, 0, 0, 0 ], [ 50, 0, 0, 0 ] ]
+21 [ [ 15, 0, 0, 0 ], [ 60, 0, 0, 0 ] ]
+22 [ [ 16, 0, 0, 0 ], [ 71, 0, 0, 0 ] ]
+23 [ [ 17, 0, 0, 0 ], [ 83, 0, 0, 0 ] ]
+24 [ [ 18, 0, 0, 0 ], [ 96, 0, 0, 0 ] ]
+**************************
+
+0
+#2
+[ [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ], null, true ] ]
+1 Before Prune 1
+1 After  Prune 1
+2 Before Prune 1
+2 After  Prune 1
+3 Before Prune 1
+3 After  Prune 1
+4 Before Prune 2
+4 After  Prune 2
+5 Before Prune 2
+5 After  Prune 2
+6 Before Prune 3
+6 After  Prune 3
+7 Before Prune 5
+7 After  Prune 5
+8 Before Prune 8
+8 After  Prune 8
+9 Before Prune 17
+9 After  Prune 17
+10 Before Prune 30
+10 After  Prune 30
+11 Before Prune 61
+11 After  Prune 58
+12 Before Prune 117
+12 After  Prune 109
+13 Before Prune 202
+13 After  Prune 186
+14 Before Prune 349
+14 After  Prune 315
+15 Before Prune 578
+15 After  Prune 517
+16 Before Prune 1018
+16 After  Prune 913
+17 Before Prune 2069
+17 After  Prune 1829
+18 Before Prune 4444
+18 After  Prune 3928
+19 Before Prune 9879
+19 After  Prune 8541
+20 Before Prune 21937
+20 After  Prune 18761
+21 Before Prune 47978
+21 After  Prune 40272
+22 Before Prune 101426
+22 After  Prune 83237
+23 Before Prune 208337
+23 After  Prune 169097
+24 Before Prune 419080
+24 After  Prune 419080
+max: 0 [
+  [ 20, 0, 0, 0 ],
+  [ 141, 0, 0, 0 ],
+  [
+    [ 19, 0, 0, 0 ],
+    [ 125, 0, 0, 0 ],
+    [ [Array], [Array], [Array], true ],
+    true
+  ],
+  true
+]
+
+**************************
+0 [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ] ]
+1 [ [ 1, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+2 [ [ 1, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+3 [ [ 1, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+4 [ [ 2, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+5 [ [ 2, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+6 [ [ 3, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+7 [ [ 3, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+8 [ [ 4, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+9 [ [ 5, 0, 0, 0 ], [ 6, 0, 0, 0 ] ]
+10 [ [ 6, 0, 0, 0 ], [ 8, 0, 0, 0 ] ]
+11 [ [ 7, 0, 0, 0 ], [ 11, 0, 0, 0 ] ]
+12 [ [ 8, 0, 0, 0 ], [ 15, 0, 0, 0 ] ]
+13 [ [ 9, 0, 0, 0 ], [ 20, 0, 0, 0 ] ]
+14 [ [ 10, 0, 0, 0 ], [ 26, 0, 0, 0 ] ]
+15 [ [ 11, 0, 0, 0 ], [ 33, 0, 0, 0 ] ]
+16 [ [ 12, 0, 0, 0 ], [ 41, 0, 0, 0 ] ]
+17 [ [ 13, 0, 0, 0 ], [ 50, 0, 0, 0 ] ]
+18 [ [ 14, 0, 0, 0 ], [ 60, 0, 0, 0 ] ]
+19 [ [ 15, 0, 0, 0 ], [ 71, 0, 0, 0 ] ]
+20 [ [ 16, 0, 0, 0 ], [ 83, 0, 0, 0 ] ]
+21 [ [ 17, 0, 0, 0 ], [ 96, 0, 0, 0 ] ]
+22 [ [ 18, 0, 0, 0 ], [ 110, 0, 0, 0 ] ]
+23 [ [ 19, 0, 0, 0 ], [ 125, 0, 0, 0 ] ]
+24 [ [ 20, 0, 0, 0 ], [ 141, 0, 0, 0 ] ]
+**************************
+
+0
+#3
+[ [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ], null, true ] ]
+1 Before Prune 1
+1 After  Prune 1
+2 Before Prune 1
+2 After  Prune 1
+3 Before Prune 1
+3 After  Prune 1
+4 Before Prune 2
+4 After  Prune 2
+5 Before Prune 2
+5 After  Prune 2
+6 Before Prune 2
+6 After  Prune 2
+7 Before Prune 4
+7 After  Prune 4
+8 Before Prune 5
+8 After  Prune 5
+9 Before Prune 8
+9 After  Prune 8
+10 Before Prune 12
+10 After  Prune 12
+11 Before Prune 20
+11 After  Prune 20
+12 Before Prune 37
+12 After  Prune 36
+13 Before Prune 65
+13 After  Prune 65
+14 Before Prune 124
+14 After  Prune 122
+15 Before Prune 239
+15 After  Prune 228
+16 Before Prune 448
+16 After  Prune 424
+17 Before Prune 845
+17 After  Prune 788
+18 Before Prune 1707
+18 After  Prune 1579
+19 Before Prune 3715
+19 After  Prune 3411
+20 Before Prune 8584
+20 After  Prune 7810
+21 Before Prune 20527
+21 After  Prune 18303
+22 Before Prune 48529
+22 After  Prune 42017
+23 Before Prune 110238
+23 After  Prune 161
+24 Before Prune 616
+24 After  Prune 616
+max: 1 [
+  [ 1, 5, 2, 1 ],
+  [ 2, 28, 4, 1 ],
+  [
+    [ 1, 5, 2, 1 ],
+    [ 1, 23, 2, 0 ],
+    [ [Array], [Array], [Array], false ],
+    true
+  ],
+  false
+]
+
+**************************
+0 [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ] ]
+1 [ [ 1, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+2 [ [ 1, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+3 [ [ 1, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+4 [ [ 1, 1, 0, 0 ], [ 1, 0, 0, 0 ] ]
+5 [ [ 1, 1, 0, 0 ], [ 2, 1, 0, 0 ] ]
+6 [ [ 1, 1, 0, 0 ], [ 3, 2, 0, 0 ] ]
+7 [ [ 1, 2, 0, 0 ], [ 1, 3, 0, 0 ] ]
+8 [ [ 1, 2, 0, 0 ], [ 2, 5, 0, 0 ] ]
+9 [ [ 1, 2, 0, 0 ], [ 3, 7, 0, 0 ] ]
+10 [ [ 1, 3, 0, 0 ], [ 1, 9, 0, 0 ] ]
+11 [ [ 1, 3, 0, 0 ], [ 2, 12, 0, 0 ] ]
+12 [ [ 1, 3, 0, 0 ], [ 3, 15, 0, 0 ] ]
+13 [ [ 1, 4, 0, 0 ], [ 1, 18, 0, 0 ] ]
+14 [ [ 1, 4, 0, 0 ], [ 2, 22, 0, 0 ] ]
+15 [ [ 1, 4, 1, 0 ], [ 1, 7, 0, 0 ] ]
+16 [ [ 1, 4, 1, 0 ], [ 2, 11, 1, 0 ] ]
+17 [ [ 1, 4, 1, 0 ], [ 3, 15, 2, 0 ] ]
+18 [ [ 1, 4, 1, 0 ], [ 4, 19, 3, 0 ] ]
+19 [ [ 1, 4, 2, 0 ], [ 3, 4, 4, 0 ] ]
+20 [ [ 1, 5, 2, 0 ], [ 1, 8, 6, 0 ] ]
+21 [ [ 1, 5, 2, 0 ], [ 2, 13, 8, 0 ] ]
+22 [ [ 1, 5, 2, 0 ], [ 3, 18, 10, 0 ] ]
+23 [ [ 1, 5, 2, 1 ], [ 1, 23, 2, 0 ] ]
+24 [ [ 1, 5, 2, 1 ], [ 2, 28, 4, 1 ] ]
+**************************
+
+1
+#4
+[ [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ], null, true ] ]
+1 Before Prune 1
+1 After  Prune 1
+2 Before Prune 1
+2 After  Prune 1
+3 Before Prune 1
+3 After  Prune 1
+4 Before Prune 2
+4 After  Prune 2
+5 Before Prune 2
+5 After  Prune 2
+6 Before Prune 3
+6 After  Prune 3
+7 Before Prune 5
+7 After  Prune 5
+8 Before Prune 8
+8 After  Prune 8
+9 Before Prune 17
+9 After  Prune 17
+10 Before Prune 30
+10 After  Prune 30
+11 Before Prune 61
+11 After  Prune 58
+12 Before Prune 118
+12 After  Prune 110
+13 Before Prune 208
+13 After  Prune 192
+14 Before Prune 377
+14 After  Prune 343
+15 Before Prune 792
+15 After  Prune 717
+16 Before Prune 1807
+16 After  Prune 1643
+17 Before Prune 4367
+17 After  Prune 3896
+18 Before Prune 10546
+18 After  Prune 9192
+19 Before Prune 24760
+19 After  Prune 21050
+20 Before Prune 56193
+20 After  Prune 47134
+21 Before Prune 125417
+21 After  Prune 8008
+22 Before Prune 31123
+22 After  Prune 2681
+23 Before Prune 8258
+23 After  Prune 910
+24 Before Prune 3636
+24 After  Prune 3636
+max: 5 [
+  [ 8, 6, 4, 2 ],
+  [ 35, 31, 8, 5 ],
+  [
+    [ 7, 6, 4, 2 ],
+    [ 31, 25, 4, 3 ],
+    [ [Array], [Array], [Array], true ],
+    true
+  ],
+  true
+]
+
+**************************
+0 [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ] ]
+1 [ [ 1, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+2 [ [ 1, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+3 [ [ 1, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+4 [ [ 2, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+5 [ [ 2, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+6 [ [ 2, 1, 0, 0 ], [ 2, 0, 0, 0 ] ]
+7 [ [ 2, 1, 0, 0 ], [ 4, 1, 0, 0 ] ]
+8 [ [ 3, 1, 0, 0 ], [ 3, 2, 0, 0 ] ]
+9 [ [ 3, 2, 0, 0 ], [ 3, 3, 0, 0 ] ]
+10 [ [ 3, 3, 0, 0 ], [ 3, 5, 0, 0 ] ]
+11 [ [ 3, 4, 0, 0 ], [ 3, 8, 0, 0 ] ]
+12 [ [ 4, 4, 0, 0 ], [ 3, 12, 0, 0 ] ]
+13 [ [ 4, 4, 1, 0 ], [ 5, 4, 0, 0 ] ]
+14 [ [ 4, 5, 1, 0 ], [ 6, 8, 1, 0 ] ]
+15 [ [ 4, 6, 1, 0 ], [ 7, 13, 2, 0 ] ]
+16 [ [ 4, 6, 2, 0 ], [ 9, 7, 3, 0 ] ]
+17 [ [ 5, 6, 2, 0 ], [ 10, 13, 5, 0 ] ]
+18 [ [ 5, 6, 3, 0 ], [ 13, 7, 7, 0 ] ]
+19 [ [ 6, 6, 3, 0 ], [ 15, 13, 10, 0 ] ]
+20 [ [ 6, 6, 3, 1 ], [ 19, 19, 3, 0 ] ]
+21 [ [ 6, 6, 4, 1 ], [ 23, 13, 6, 1 ] ]
+22 [ [ 7, 6, 4, 1 ], [ 26, 19, 10, 2 ] ]
+23 [ [ 7, 6, 4, 2 ], [ 31, 25, 4, 3 ] ]
+24 [ [ 8, 6, 4, 2 ], [ 35, 31, 8, 5 ] ]
+**************************
+
+5
+#5
+[ [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ], null, true ] ]
+1 Before Prune 1
+1 After  Prune 1
+2 Before Prune 1
+2 After  Prune 1
+3 Before Prune 1
+3 After  Prune 1
+4 Before Prune 1
+4 After  Prune 1
+5 Before Prune 2
+5 After  Prune 2
+6 Before Prune 2
+6 After  Prune 2
+7 Before Prune 2
+7 After  Prune 2
+8 Before Prune 3
+8 After  Prune 3
+9 Before Prune 5
+9 After  Prune 5
+10 Before Prune 8
+10 After  Prune 8
+11 Before Prune 11
+11 After  Prune 11
+12 Before Prune 24
+12 After  Prune 24
+13 Before Prune 41
+13 After  Prune 40
+14 Before Prune 81
+14 After  Prune 78
+15 Before Prune 151
+15 After  Prune 143
+16 Before Prune 275
+16 After  Prune 258
+17 Before Prune 540
+17 After  Prune 502
+18 Before Prune 1212
+18 After  Prune 1116
+19 Before Prune 2961
+19 After  Prune 2730
+20 Before Prune 7499
+20 After  Prune 6682
+21 Before Prune 18384
+21 After  Prune 43
+22 Before Prune 150
+22 After  Prune 144
+23 Before Prune 405
+23 After  Prune 404
+24 Before Prune 1170
+24 After  Prune 1170
+max: 3 [
+  [ 8, 4, 2, 1 ],
+  [ 15, 28, 8, 3 ],
+  [
+    [ 7, 4, 2, 1 ],
+    [ 12, 24, 6, 2 ],
+    [ [Array], [Array], [Array], true ],
+    true
+  ],
+  true
+]
+
+**************************
+0 [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ] ]
+1 [ [ 1, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+2 [ [ 1, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+3 [ [ 1, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+4 [ [ 1, 0, 0, 0 ], [ 4, 0, 0, 0 ] ]
+5 [ [ 2, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+6 [ [ 2, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+7 [ [ 2, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+8 [ [ 2, 1, 0, 0 ], [ 3, 0, 0, 0 ] ]
+9 [ [ 2, 1, 0, 0 ], [ 5, 1, 0, 0 ] ]
+10 [ [ 2, 2, 0, 0 ], [ 3, 2, 0, 0 ] ]
+11 [ [ 2, 2, 0, 0 ], [ 5, 4, 0, 0 ] ]
+12 [ [ 2, 3, 0, 0 ], [ 3, 6, 0, 0 ] ]
+13 [ [ 2, 3, 0, 0 ], [ 5, 9, 0, 0 ] ]
+14 [ [ 3, 3, 0, 0 ], [ 3, 12, 0, 0 ] ]
+15 [ [ 3, 3, 1, 0 ], [ 4, 4, 0, 0 ] ]
+16 [ [ 3, 4, 1, 0 ], [ 3, 7, 1, 0 ] ]
+17 [ [ 3, 4, 1, 0 ], [ 6, 11, 2, 0 ] ]
+18 [ [ 3, 4, 2, 0 ], [ 7, 4, 3, 0 ] ]
+19 [ [ 4, 4, 2, 0 ], [ 6, 8, 5, 0 ] ]
+20 [ [ 5, 4, 2, 0 ], [ 6, 12, 7, 0 ] ]
+21 [ [ 5, 4, 2, 1 ], [ 9, 16, 2, 0 ] ]
+22 [ [ 6, 4, 2, 1 ], [ 10, 20, 4, 1 ] ]
+23 [ [ 7, 4, 2, 1 ], [ 12, 24, 6, 2 ] ]
+24 [ [ 8, 4, 2, 1 ], [ 15, 28, 8, 3 ] ]
+**************************
+
+3
+#6
+[ [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ], null, true ] ]
+1 Before Prune 1
+1 After  Prune 1
+2 Before Prune 1
+2 After  Prune 1
+3 Before Prune 1
+3 After  Prune 1
+4 Before Prune 2
+4 After  Prune 2
+5 Before Prune 2
+5 After  Prune 2
+6 Before Prune 3
+6 After  Prune 3
+7 Before Prune 3
+7 After  Prune 3
+8 Before Prune 6
+8 After  Prune 6
+9 Before Prune 11
+9 After  Prune 11
+10 Before Prune 21
+10 After  Prune 21
+11 Before Prune 40
+11 After  Prune 39
+12 Before Prune 79
+12 After  Prune 75
+13 Before Prune 145
+13 After  Prune 136
+14 Before Prune 258
+14 After  Prune 239
+15 Before Prune 444
+15 After  Prune 407
+16 Before Prune 753
+16 After  Prune 683
+17 Before Prune 1463
+17 After  Prune 1320
+18 Before Prune 3165
+18 After  Prune 2838
+19 Before Prune 7250
+19 After  Prune 6425
+20 Before Prune 17167
+20 After  Prune 15057
+21 Before Prune 39904
+21 After  Prune 33769
+22 Before Prune 89273
+22 After  Prune 543
+23 Before Prune 2113
+23 After  Prune 2029
+24 Before Prune 6506
+24 After  Prune 6506
+max: 2 [
+  [ 8, 8, 3, 1 ],
+  [ 22, 41, 9, 2 ],
+  [
+    [ 7, 8, 3, 1 ],
+    [ 18, 33, 6, 1 ],
+    [ [Array], [Array], [Array], true ],
+    true
+  ],
+  true
+]
+
+**************************
+0 [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ] ]
+1 [ [ 1, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+2 [ [ 1, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+3 [ [ 1, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+4 [ [ 2, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+5 [ [ 2, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+6 [ [ 3, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+7 [ [ 3, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+8 [ [ 4, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+9 [ [ 4, 1, 0, 0 ], [ 5, 0, 0, 0 ] ]
+10 [ [ 4, 2, 0, 0 ], [ 5, 1, 0, 0 ] ]
+11 [ [ 4, 3, 0, 0 ], [ 5, 3, 0, 0 ] ]
+12 [ [ 4, 4, 0, 0 ], [ 5, 6, 0, 0 ] ]
+13 [ [ 4, 5, 0, 0 ], [ 5, 10, 0, 0 ] ]
+14 [ [ 4, 6, 0, 0 ], [ 5, 15, 0, 0 ] ]
+15 [ [ 4, 7, 0, 0 ], [ 5, 21, 0, 0 ] ]
+16 [ [ 4, 8, 0, 0 ], [ 5, 28, 0, 0 ] ]
+17 [ [ 4, 8, 1, 0 ], [ 6, 19, 0, 0 ] ]
+18 [ [ 4, 8, 2, 0 ], [ 7, 10, 1, 0 ] ]
+19 [ [ 5, 8, 2, 0 ], [ 8, 18, 3, 0 ] ]
+20 [ [ 5, 8, 3, 0 ], [ 10, 9, 5, 0 ] ]
+21 [ [ 6, 8, 3, 0 ], [ 12, 17, 8, 0 ] ]
+22 [ [ 6, 8, 3, 1 ], [ 15, 25, 3, 0 ] ]
+23 [ [ 7, 8, 3, 1 ], [ 18, 33, 6, 1 ] ]
+24 [ [ 8, 8, 3, 1 ], [ 22, 41, 9, 2 ] ]
+**************************
+
+2
+#7
+[ [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ], null, true ] ]
+1 Before Prune 1
+1 After  Prune 1
+2 Before Prune 1
+2 After  Prune 1
+3 Before Prune 1
+3 After  Prune 1
+4 Before Prune 1
+4 After  Prune 1
+5 Before Prune 2
+5 After  Prune 2
+6 Before Prune 2
+6 After  Prune 2
+7 Before Prune 2
+7 After  Prune 2
+8 Before Prune 3
+8 After  Prune 3
+9 Before Prune 5
+9 After  Prune 5
+10 Before Prune 8
+10 After  Prune 8
+11 Before Prune 11
+11 After  Prune 11
+12 Before Prune 24
+12 After  Prune 24
+13 Before Prune 41
+13 After  Prune 40
+14 Before Prune 81
+14 After  Prune 78
+15 Before Prune 145
+15 After  Prune 137
+16 Before Prune 267
+16 After  Prune 250
+17 Before Prune 474
+17 After  Prune 436
+18 Before Prune 935
+18 After  Prune 852
+19 Before Prune 2049
+19 After  Prune 1865
+20 Before Prune 4849
+20 After  Prune 4351
+21 Before Prune 11714
+21 After  Prune 10359
+22 Before Prune 27862
+22 After  Prune 23914
+23 Before Prune 63502
+23 After  Prune 53470
+24 Before Prune 140378
+24 After  Prune 140378
+max: 0 [
+  [ 18, 0, 0, 0 ],
+  [ 96, 0, 0, 0 ],
+  [
+    [ 17, 0, 0, 0 ],
+    [ 83, 0, 0, 0 ],
+    [ [Array], [Array], [Array], true ],
+    true
+  ],
+  true
+]
+
+**************************
+0 [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ] ]
+1 [ [ 1, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+2 [ [ 1, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+3 [ [ 1, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+4 [ [ 1, 0, 0, 0 ], [ 4, 0, 0, 0 ] ]
+5 [ [ 2, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+6 [ [ 2, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+7 [ [ 2, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+8 [ [ 3, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+9 [ [ 3, 0, 0, 0 ], [ 6, 0, 0, 0 ] ]
+10 [ [ 4, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+11 [ [ 5, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+12 [ [ 6, 0, 0, 0 ], [ 6, 0, 0, 0 ] ]
+13 [ [ 7, 0, 0, 0 ], [ 8, 0, 0, 0 ] ]
+14 [ [ 8, 0, 0, 0 ], [ 11, 0, 0, 0 ] ]
+15 [ [ 9, 0, 0, 0 ], [ 15, 0, 0, 0 ] ]
+16 [ [ 10, 0, 0, 0 ], [ 20, 0, 0, 0 ] ]
+17 [ [ 11, 0, 0, 0 ], [ 26, 0, 0, 0 ] ]
+18 [ [ 12, 0, 0, 0 ], [ 33, 0, 0, 0 ] ]
+19 [ [ 13, 0, 0, 0 ], [ 41, 0, 0, 0 ] ]
+20 [ [ 14, 0, 0, 0 ], [ 50, 0, 0, 0 ] ]
+21 [ [ 15, 0, 0, 0 ], [ 60, 0, 0, 0 ] ]
+22 [ [ 16, 0, 0, 0 ], [ 71, 0, 0, 0 ] ]
+23 [ [ 17, 0, 0, 0 ], [ 83, 0, 0, 0 ] ]
+24 [ [ 18, 0, 0, 0 ], [ 96, 0, 0, 0 ] ]
+**************************
+
+0
+#8
+[ [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ], null, true ] ]
+1 Before Prune 1
+1 After  Prune 1
+2 Before Prune 1
+2 After  Prune 1
+3 Before Prune 1
+3 After  Prune 1
+4 Before Prune 1
+4 After  Prune 1
+5 Before Prune 2
+5 After  Prune 2
+6 Before Prune 2
+6 After  Prune 2
+7 Before Prune 2
+7 After  Prune 2
+8 Before Prune 3
+8 After  Prune 3
+9 Before Prune 5
+9 After  Prune 5
+10 Before Prune 8
+10 After  Prune 8
+11 Before Prune 11
+11 After  Prune 11
+12 Before Prune 25
+12 After  Prune 25
+13 Before Prune 43
+13 After  Prune 42
+14 Before Prune 85
+14 After  Prune 82
+15 Before Prune 169
+15 After  Prune 161
+16 Before Prune 350
+16 After  Prune 331
+17 Before Prune 874
+17 After  Prune 828
+18 Before Prune 2238
+18 After  Prune 2076
+19 Before Prune 5923
+19 After  Prune 5353
+20 Before Prune 15053
+20 After  Prune 13211
+21 Before Prune 36713
+21 After  Prune 31447
+22 Before Prune 86059
+22 After  Prune 71868
+23 Before Prune 193199
+23 After  Prune 4
+24 Before Prune 7
+24 After  Prune 7
+max: 1 [
+  [ 2, 4, 5, 1 ],
+  [ 4, 16, 10, 1 ],
+  [
+    [ 2, 4, 5, 1 ],
+    [ 2, 12, 5, 0 ],
+    [ [Array], [Array], [Array], false ],
+    true
+  ],
+  false
+]
+
+**************************
+0 [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ] ]
+1 [ [ 1, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+2 [ [ 1, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+3 [ [ 1, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+4 [ [ 1, 0, 0, 0 ], [ 4, 0, 0, 0 ] ]
+5 [ [ 2, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+6 [ [ 2, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+7 [ [ 2, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+8 [ [ 2, 1, 0, 0 ], [ 3, 0, 0, 0 ] ]
+9 [ [ 2, 1, 0, 0 ], [ 5, 1, 0, 0 ] ]
+10 [ [ 2, 2, 0, 0 ], [ 3, 2, 0, 0 ] ]
+11 [ [ 2, 2, 0, 0 ], [ 5, 4, 0, 0 ] ]
+12 [ [ 2, 3, 0, 0 ], [ 3, 6, 0, 0 ] ]
+13 [ [ 2, 3, 0, 0 ], [ 5, 9, 0, 0 ] ]
+14 [ [ 2, 3, 1, 0 ], [ 4, 5, 0, 0 ] ]
+15 [ [ 2, 4, 1, 0 ], [ 2, 8, 1, 0 ] ]
+16 [ [ 2, 4, 1, 0 ], [ 4, 12, 2, 0 ] ]
+17 [ [ 2, 4, 2, 0 ], [ 3, 9, 3, 0 ] ]
+18 [ [ 2, 4, 3, 0 ], [ 2, 6, 5, 0 ] ]
+19 [ [ 2, 4, 3, 0 ], [ 4, 10, 8, 0 ] ]
+20 [ [ 2, 4, 4, 0 ], [ 3, 7, 11, 0 ] ]
+21 [ [ 2, 4, 5, 0 ], [ 2, 4, 15, 0 ] ]
+22 [ [ 2, 4, 5, 0 ], [ 4, 8, 20, 0 ] ]
+23 [ [ 2, 4, 5, 1 ], [ 2, 12, 5, 0 ] ]
+24 [ [ 2, 4, 5, 1 ], [ 4, 16, 10, 1 ] ]
+**************************
+
+1
+#9
+[ [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ], null, true ] ]
+1 Before Prune 1
+1 After  Prune 1
+2 Before Prune 1
+2 After  Prune 1
+3 Before Prune 2
+3 After  Prune 2
+4 Before Prune 2
+4 After  Prune 2
+5 Before Prune 5
+5 After  Prune 5
+6 Before Prune 8
+6 After  Prune 8
+7 Before Prune 19
+7 After  Prune 19
+8 Before Prune 38
+8 After  Prune 37
+9 Before Prune 78
+9 After  Prune 74
+10 Before Prune 145
+10 After  Prune 134
+11 Before Prune 275
+11 After  Prune 251
+12 Before Prune 579
+12 After  Prune 527
+13 Before Prune 1383
+13 After  Prune 1242
+14 Before Prune 3433
+14 After  Prune 3053
+15 Before Prune 8495
+15 After  Prune 7323
+16 Before Prune 20040
+16 After  Prune 16960
+17 Before Prune 45768
+17 After  Prune 37921
+18 Before Prune 101334
+18 After  Prune 4671
+19 Before Prune 18101
+19 After  Prune 16336
+20 Before Prune 52387
+20 After  Prune 1986
+21 Before Prune 7944
+21 After  Prune 3576
+22 Before Prune 11793
+22 After  Prune 1176
+23 Before Prune 4704
+23 After  Prune 17
+24 Before Prune 68
+24 After  Prune 68
+max: 14 [
+  [ 4, 7, 7, 4 ],
+  [ 11, 40, 14, 14 ],
+  [
+    [ 3, 7, 7, 4 ],
+    [ 10, 33, 7, 10 ],
+    [ [Array], [Array], [Array], true ],
+    true
+  ],
+  true
+]
+
+**************************
+0 [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ] ]
+1 [ [ 1, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+2 [ [ 1, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+3 [ [ 2, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+4 [ [ 2, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+5 [ [ 2, 1, 0, 0 ], [ 3, 0, 0, 0 ] ]
+6 [ [ 2, 2, 0, 0 ], [ 3, 1, 0, 0 ] ]
+7 [ [ 2, 3, 0, 0 ], [ 3, 3, 0, 0 ] ]
+8 [ [ 2, 4, 0, 0 ], [ 3, 6, 0, 0 ] ]
+9 [ [ 2, 5, 0, 0 ], [ 3, 10, 0, 0 ] ]
+10 [ [ 2, 6, 0, 0 ], [ 3, 15, 0, 0 ] ]
+11 [ [ 2, 6, 1, 0 ], [ 3, 11, 0, 0 ] ]
+12 [ [ 2, 6, 2, 0 ], [ 3, 7, 1, 0 ] ]
+13 [ [ 2, 7, 2, 0 ], [ 3, 13, 3, 0 ] ]
+14 [ [ 2, 7, 3, 0 ], [ 3, 10, 5, 0 ] ]
+15 [ [ 2, 7, 4, 0 ], [ 3, 7, 8, 0 ] ]
+16 [ [ 3, 7, 4, 0 ], [ 3, 14, 12, 0 ] ]
+17 [ [ 3, 7, 4, 1 ], [ 4, 21, 5, 0 ] ]
+18 [ [ 3, 7, 5, 1 ], [ 5, 18, 9, 1 ] ]
+19 [ [ 3, 7, 6, 1 ], [ 6, 15, 14, 2 ] ]
+20 [ [ 3, 7, 6, 2 ], [ 7, 22, 9, 3 ] ]
+21 [ [ 3, 7, 7, 2 ], [ 8, 19, 15, 5 ] ]
+22 [ [ 3, 7, 7, 3 ], [ 9, 26, 11, 7 ] ]
+23 [ [ 3, 7, 7, 4 ], [ 10, 33, 7, 10 ] ]
+24 [ [ 4, 7, 7, 4 ], [ 11, 40, 14, 14 ] ]
+**************************
+
+14
+#10
+[ [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ], null, true ] ]
+1 Before Prune 1
+1 After  Prune 1
+2 Before Prune 1
+2 After  Prune 1
+3 Before Prune 1
+3 After  Prune 1
+4 Before Prune 2
+4 After  Prune 2
+5 Before Prune 2
+5 After  Prune 2
+6 Before Prune 2
+6 After  Prune 2
+7 Before Prune 4
+7 After  Prune 4
+8 Before Prune 5
+8 After  Prune 5
+9 Before Prune 8
+9 After  Prune 8
+10 Before Prune 12
+10 After  Prune 12
+11 Before Prune 20
+11 After  Prune 20
+12 Before Prune 37
+12 After  Prune 36
+13 Before Prune 66
+13 After  Prune 66
+14 Before Prune 124
+14 After  Prune 122
+15 Before Prune 249
+15 After  Prune 238
+16 Before Prune 490
+16 After  Prune 466
+17 Before Prune 1032
+17 After  Prune 970
+18 Before Prune 2366
+18 After  Prune 2209
+19 Before Prune 5817
+19 After  Prune 5378
+20 Before Prune 14518
+20 After  Prune 13081
+21 Before Prune 35655
+21 After  Prune 31137
+22 Before Prune 83755
+22 After  Prune 70983
+23 Before Prune 187791
+23 After  Prune 154740
+24 Before Prune 402028
+24 After  Prune 402028
+max: 0 [
+  [ 1, 7, 0, 0 ],
+  [ 3, 77, 0, 0 ],
+  [
+    [ 1, 7, 0, 0 ],
+    [ 2, 70, 0, 0 ],
+    [ [Array], [Array], [Array], true ],
+    false
+  ],
+  false
+]
+
+**************************
+0 [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ] ]
+1 [ [ 1, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+2 [ [ 1, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+3 [ [ 1, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+4 [ [ 1, 1, 0, 0 ], [ 1, 0, 0, 0 ] ]
+5 [ [ 1, 1, 0, 0 ], [ 2, 1, 0, 0 ] ]
+6 [ [ 1, 1, 0, 0 ], [ 3, 2, 0, 0 ] ]
+7 [ [ 1, 2, 0, 0 ], [ 1, 3, 0, 0 ] ]
+8 [ [ 1, 2, 0, 0 ], [ 2, 5, 0, 0 ] ]
+9 [ [ 1, 2, 0, 0 ], [ 3, 7, 0, 0 ] ]
+10 [ [ 1, 3, 0, 0 ], [ 1, 9, 0, 0 ] ]
+11 [ [ 1, 3, 0, 0 ], [ 2, 12, 0, 0 ] ]
+12 [ [ 1, 3, 0, 0 ], [ 3, 15, 0, 0 ] ]
+13 [ [ 1, 4, 0, 0 ], [ 1, 18, 0, 0 ] ]
+14 [ [ 1, 4, 0, 0 ], [ 2, 22, 0, 0 ] ]
+15 [ [ 1, 4, 0, 0 ], [ 3, 26, 0, 0 ] ]
+16 [ [ 1, 5, 0, 0 ], [ 1, 30, 0, 0 ] ]
+17 [ [ 1, 5, 0, 0 ], [ 2, 35, 0, 0 ] ]
+18 [ [ 1, 5, 0, 0 ], [ 3, 40, 0, 0 ] ]
+19 [ [ 1, 6, 0, 0 ], [ 1, 45, 0, 0 ] ]
+20 [ [ 1, 6, 0, 0 ], [ 2, 51, 0, 0 ] ]
+21 [ [ 1, 6, 0, 0 ], [ 3, 57, 0, 0 ] ]
+22 [ [ 1, 7, 0, 0 ], [ 1, 63, 0, 0 ] ]
+23 [ [ 1, 7, 0, 0 ], [ 2, 70, 0, 0 ] ]
+24 [ [ 1, 7, 0, 0 ], [ 3, 77, 0, 0 ] ]
+**************************
+
+0
+#11
+[ [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ], null, true ] ]
+1 Before Prune 1
+1 After  Prune 1
+2 Before Prune 1
+2 After  Prune 1
+3 Before Prune 1
+3 After  Prune 1
+4 Before Prune 1
+4 After  Prune 1
+5 Before Prune 2
+5 After  Prune 2
+6 Before Prune 2
+6 After  Prune 2
+7 Before Prune 2
+7 After  Prune 2
+8 Before Prune 3
+8 After  Prune 3
+9 Before Prune 5
+9 After  Prune 5
+10 Before Prune 8
+10 After  Prune 8
+11 Before Prune 11
+11 After  Prune 11
+12 Before Prune 24
+12 After  Prune 24
+13 Before Prune 41
+13 After  Prune 40
+14 Before Prune 81
+14 After  Prune 78
+15 Before Prune 144
+15 After  Prune 136
+16 Before Prune 267
+16 After  Prune 250
+17 Before Prune 474
+17 After  Prune 436
+18 Before Prune 921
+18 After  Prune 838
+19 Before Prune 2040
+19 After  Prune 1856
+20 Before Prune 4775
+20 After  Prune 4279
+21 Before Prune 11565
+21 After  Prune 10221
+22 Before Prune 27356
+22 After  Prune 23439
+23 Before Prune 62447
+23 After  Prune 420
+24 Before Prune 1630
+24 After  Prune 1630
+max: 1 [
+  [ 7, 7, 3, 1 ],
+  [ 15, 28, 6, 1 ],
+  [
+    [ 6, 7, 3, 1 ],
+    [ 13, 21, 3, 0 ],
+    [ [Array], [Array], [Array], true ],
+    true
+  ],
+  true
+]
+
+**************************
+0 [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ] ]
+1 [ [ 1, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+2 [ [ 1, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+3 [ [ 1, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+4 [ [ 1, 0, 0, 0 ], [ 4, 0, 0, 0 ] ]
+5 [ [ 2, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+6 [ [ 2, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+7 [ [ 2, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+8 [ [ 3, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+9 [ [ 3, 0, 0, 0 ], [ 6, 0, 0, 0 ] ]
+10 [ [ 4, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+11 [ [ 4, 1, 0, 0 ], [ 5, 0, 0, 0 ] ]
+12 [ [ 4, 2, 0, 0 ], [ 5, 1, 0, 0 ] ]
+13 [ [ 4, 3, 0, 0 ], [ 5, 3, 0, 0 ] ]
+14 [ [ 4, 4, 0, 0 ], [ 5, 6, 0, 0 ] ]
+15 [ [ 4, 5, 0, 0 ], [ 5, 10, 0, 0 ] ]
+16 [ [ 4, 6, 0, 0 ], [ 5, 15, 0, 0 ] ]
+17 [ [ 4, 7, 0, 0 ], [ 5, 21, 0, 0 ] ]
+18 [ [ 4, 7, 1, 0 ], [ 6, 14, 0, 0 ] ]
+19 [ [ 4, 7, 2, 0 ], [ 7, 7, 1, 0 ] ]
+20 [ [ 5, 7, 2, 0 ], [ 7, 14, 3, 0 ] ]
+21 [ [ 5, 7, 3, 0 ], [ 9, 7, 5, 0 ] ]
+22 [ [ 6, 7, 3, 0 ], [ 10, 14, 8, 0 ] ]
+23 [ [ 6, 7, 3, 1 ], [ 13, 21, 3, 0 ] ]
+24 [ [ 7, 7, 3, 1 ], [ 15, 28, 6, 1 ] ]
+**************************
+
+1
+#12
+[ [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ], null, true ] ]
+1 Before Prune 1
+1 After  Prune 1
+2 Before Prune 1
+2 After  Prune 1
+3 Before Prune 1
+3 After  Prune 1
+4 Before Prune 1
+4 After  Prune 1
+5 Before Prune 2
+5 After  Prune 2
+6 Before Prune 2
+6 After  Prune 2
+7 Before Prune 2
+7 After  Prune 2
+8 Before Prune 3
+8 After  Prune 3
+9 Before Prune 5
+9 After  Prune 5
+10 Before Prune 8
+10 After  Prune 8
+11 Before Prune 11
+11 After  Prune 11
+12 Before Prune 24
+12 After  Prune 24
+13 Before Prune 41
+13 After  Prune 40
+14 Before Prune 81
+14 After  Prune 78
+15 Before Prune 143
+15 After  Prune 135
+16 Before Prune 264
+16 After  Prune 247
+17 Before Prune 452
+17 After  Prune 414
+18 Before Prune 817
+18 After  Prune 745
+19 Before Prune 1672
+19 After  Prune 1513
+20 Before Prune 3768
+20 After  Prune 3356
+21 Before Prune 8714
+21 After  Prune 7783
+22 Before Prune 20717
+22 After  Prune 17847
+23 Before Prune 47104
+23 After  Prune 39963
+24 Before Prune 104775
+24 After  Prune 104775
+max: 0 [
+  [ 18, 0, 0, 0 ],
+  [ 96, 0, 0, 0 ],
+  [
+    [ 17, 0, 0, 0 ],
+    [ 83, 0, 0, 0 ],
+    [ [Array], [Array], [Array], true ],
+    true
+  ],
+  true
+]
+
+**************************
+0 [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ] ]
+1 [ [ 1, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+2 [ [ 1, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+3 [ [ 1, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+4 [ [ 1, 0, 0, 0 ], [ 4, 0, 0, 0 ] ]
+5 [ [ 2, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+6 [ [ 2, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+7 [ [ 2, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+8 [ [ 3, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+9 [ [ 3, 0, 0, 0 ], [ 6, 0, 0, 0 ] ]
+10 [ [ 4, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+11 [ [ 5, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+12 [ [ 6, 0, 0, 0 ], [ 6, 0, 0, 0 ] ]
+13 [ [ 7, 0, 0, 0 ], [ 8, 0, 0, 0 ] ]
+14 [ [ 8, 0, 0, 0 ], [ 11, 0, 0, 0 ] ]
+15 [ [ 9, 0, 0, 0 ], [ 15, 0, 0, 0 ] ]
+16 [ [ 10, 0, 0, 0 ], [ 20, 0, 0, 0 ] ]
+17 [ [ 11, 0, 0, 0 ], [ 26, 0, 0, 0 ] ]
+18 [ [ 12, 0, 0, 0 ], [ 33, 0, 0, 0 ] ]
+19 [ [ 13, 0, 0, 0 ], [ 41, 0, 0, 0 ] ]
+20 [ [ 14, 0, 0, 0 ], [ 50, 0, 0, 0 ] ]
+21 [ [ 15, 0, 0, 0 ], [ 60, 0, 0, 0 ] ]
+22 [ [ 16, 0, 0, 0 ], [ 71, 0, 0, 0 ] ]
+23 [ [ 17, 0, 0, 0 ], [ 83, 0, 0, 0 ] ]
+24 [ [ 18, 0, 0, 0 ], [ 96, 0, 0, 0 ] ]
+**************************
+
+0
+#13
+[ [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ], null, true ] ]
+1 Before Prune 1
+1 After  Prune 1
+2 Before Prune 1
+2 After  Prune 1
+3 Before Prune 1
+3 After  Prune 1
+4 Before Prune 2
+4 After  Prune 2
+5 Before Prune 2
+5 After  Prune 2
+6 Before Prune 3
+6 After  Prune 3
+7 Before Prune 3
+7 After  Prune 3
+8 Before Prune 6
+8 After  Prune 6
+9 Before Prune 11
+9 After  Prune 11
+10 Before Prune 21
+10 After  Prune 21
+11 Before Prune 40
+11 After  Prune 39
+12 Before Prune 79
+12 After  Prune 75
+13 Before Prune 155
+13 After  Prune 146
+14 Before Prune 337
+14 After  Prune 318
+15 Before Prune 849
+15 After  Prune 791
+16 Before Prune 2271
+16 After  Prune 2095
+17 Before Prune 6066
+17 After  Prune 5443
+18 Before Prune 15461
+18 After  Prune 13490
+19 Before Prune 37962
+19 After  Prune 32307
+20 Before Prune 88839
+20 After  Prune 73522
+21 Before Prune 198409
+21 After  Prune 2443
+22 Before Prune 9763
+22 After  Prune 39
+23 Before Prune 120
+23 After  Prune 12
+24 Before Prune 48
+24 After  Prune 48
+max: 5 [
+  [ 7, 5, 6, 2 ],
+  [ 16, 29, 12, 5 ],
+  [
+    [ 6, 5, 6, 2 ],
+    [ 13, 24, 6, 3 ],
+    [ [Array], [Array], [Array], true ],
+    true
+  ],
+  true
+]
+
+**************************
+0 [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ] ]
+1 [ [ 1, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+2 [ [ 1, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+3 [ [ 1, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+4 [ [ 2, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+5 [ [ 2, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+6 [ [ 3, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+7 [ [ 3, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+8 [ [ 3, 1, 0, 0 ], [ 4, 0, 0, 0 ] ]
+9 [ [ 4, 1, 0, 0 ], [ 4, 1, 0, 0 ] ]
+10 [ [ 4, 2, 0, 0 ], [ 4, 2, 0, 0 ] ]
+11 [ [ 4, 3, 0, 0 ], [ 4, 4, 0, 0 ] ]
+12 [ [ 4, 4, 0, 0 ], [ 4, 7, 0, 0 ] ]
+13 [ [ 4, 4, 1, 0 ], [ 4, 5, 0, 0 ] ]
+14 [ [ 4, 5, 1, 0 ], [ 4, 9, 1, 0 ] ]
+15 [ [ 4, 5, 2, 0 ], [ 4, 8, 2, 0 ] ]
+16 [ [ 4, 5, 3, 0 ], [ 4, 7, 4, 0 ] ]
+17 [ [ 4, 5, 4, 0 ], [ 4, 6, 7, 0 ] ]
+18 [ [ 4, 5, 5, 0 ], [ 4, 5, 11, 0 ] ]
+19 [ [ 5, 5, 5, 0 ], [ 5, 10, 16, 0 ] ]
+20 [ [ 5, 5, 5, 1 ], [ 7, 15, 5, 0 ] ]
+21 [ [ 5, 5, 6, 1 ], [ 8, 14, 10, 1 ] ]
+22 [ [ 6, 5, 6, 1 ], [ 10, 19, 16, 2 ] ]
+23 [ [ 6, 5, 6, 2 ], [ 13, 24, 6, 3 ] ]
+24 [ [ 7, 5, 6, 2 ], [ 16, 29, 12, 5 ] ]
+**************************
+
+5
+#14
+[ [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ], null, true ] ]
+1 Before Prune 1
+1 After  Prune 1
+2 Before Prune 1
+2 After  Prune 1
+3 Before Prune 1
+3 After  Prune 1
+4 Before Prune 1
+4 After  Prune 1
+5 Before Prune 2
+5 After  Prune 2
+6 Before Prune 2
+6 After  Prune 2
+7 Before Prune 2
+7 After  Prune 2
+8 Before Prune 3
+8 After  Prune 3
+9 Before Prune 5
+9 After  Prune 5
+10 Before Prune 8
+10 After  Prune 8
+11 Before Prune 12
+11 After  Prune 12
+12 Before Prune 27
+12 After  Prune 27
+13 Before Prune 49
+13 After  Prune 48
+14 Before Prune 87
+14 After  Prune 84
+15 Before Prune 205
+15 After  Prune 197
+16 Before Prune 484
+16 After  Prune 465
+17 Before Prune 1303
+17 After  Prune 1235
+18 Before Prune 3480
+18 After  Prune 3216
+19 Before Prune 9206
+19 After  Prune 8233
+20 Before Prune 23323
+20 After  Prune 168
+21 Before Prune 602
+21 After  Prune 592
+22 Before Prune 1812
+22 After  Prune 1
+23 Before Prune 2
+23 After  Prune 2
+24 Before Prune 4
+24 After  Prune 4
+max: 6 [
+  [ 2, 3, 5, 2 ],
+  [ 4, 17, 13, 6 ],
+  [
+    [ 2, 3, 5, 2 ],
+    [ 2, 14, 8, 4 ],
+    [ [Array], [Array], [Array], true ],
+    true
+  ],
+  false
+]
+
+**************************
+0 [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ] ]
+1 [ [ 1, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+2 [ [ 1, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+3 [ [ 1, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+4 [ [ 1, 0, 0, 0 ], [ 4, 0, 0, 0 ] ]
+5 [ [ 2, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+6 [ [ 2, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+7 [ [ 2, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+8 [ [ 2, 1, 0, 0 ], [ 3, 0, 0, 0 ] ]
+9 [ [ 2, 1, 0, 0 ], [ 5, 1, 0, 0 ] ]
+10 [ [ 2, 2, 0, 0 ], [ 3, 2, 0, 0 ] ]
+11 [ [ 2, 2, 0, 0 ], [ 5, 4, 0, 0 ] ]
+12 [ [ 2, 3, 0, 0 ], [ 3, 6, 0, 0 ] ]
+13 [ [ 2, 3, 1, 0 ], [ 2, 4, 0, 0 ] ]
+14 [ [ 2, 3, 1, 0 ], [ 4, 7, 1, 0 ] ]
+15 [ [ 2, 3, 2, 0 ], [ 3, 5, 2, 0 ] ]
+16 [ [ 2, 3, 3, 0 ], [ 2, 3, 4, 0 ] ]
+17 [ [ 2, 3, 3, 0 ], [ 4, 6, 7, 0 ] ]
+18 [ [ 2, 3, 4, 0 ], [ 3, 4, 10, 0 ] ]
+19 [ [ 2, 3, 4, 0 ], [ 5, 7, 14, 0 ] ]
+20 [ [ 2, 3, 4, 1 ], [ 3, 10, 7, 0 ] ]
+21 [ [ 2, 3, 4, 1 ], [ 5, 13, 11, 1 ] ]
+22 [ [ 2, 3, 4, 2 ], [ 3, 16, 4, 2 ] ]
+23 [ [ 2, 3, 5, 2 ], [ 2, 14, 8, 4 ] ]
+24 [ [ 2, 3, 5, 2 ], [ 4, 17, 13, 6 ] ]
+**************************
+
+6
+#15
+[ [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ], null, true ] ]
+1 Before Prune 1
+1 After  Prune 1
+2 Before Prune 1
+2 After  Prune 1
+3 Before Prune 1
+3 After  Prune 1
+4 Before Prune 2
+4 After  Prune 2
+5 Before Prune 2
+5 After  Prune 2
+6 Before Prune 3
+6 After  Prune 3
+7 Before Prune 5
+7 After  Prune 5
+8 Before Prune 8
+8 After  Prune 8
+9 Before Prune 17
+9 After  Prune 17
+10 Before Prune 30
+10 After  Prune 30
+11 Before Prune 61
+11 After  Prune 58
+12 Before Prune 117
+12 After  Prune 109
+13 Before Prune 202
+13 After  Prune 186
+14 Before Prune 349
+14 After  Prune 315
+15 Before Prune 577
+15 After  Prune 516
+16 Before Prune 998
+16 After  Prune 895
+17 Before Prune 1952
+17 After  Prune 1726
+18 Before Prune 4117
+18 After  Prune 3637
+19 Before Prune 9090
+19 After  Prune 7890
+20 Before Prune 20100
+20 After  Prune 17225
+21 Before Prune 43706
+21 After  Prune 36756
+22 Before Prune 92538
+22 After  Prune 76182
+23 Before Prune 190293
+23 After  Prune 155197
+24 Before Prune 383429
+24 After  Prune 383429
+max: 0 [
+  [ 20, 0, 0, 0 ],
+  [ 141, 0, 0, 0 ],
+  [
+    [ 19, 0, 0, 0 ],
+    [ 125, 0, 0, 0 ],
+    [ [Array], [Array], [Array], true ],
+    true
+  ],
+  true
+]
+
+**************************
+0 [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ] ]
+1 [ [ 1, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+2 [ [ 1, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+3 [ [ 1, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+4 [ [ 2, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+5 [ [ 2, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+6 [ [ 3, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+7 [ [ 3, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+8 [ [ 4, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+9 [ [ 5, 0, 0, 0 ], [ 6, 0, 0, 0 ] ]
+10 [ [ 6, 0, 0, 0 ], [ 8, 0, 0, 0 ] ]
+11 [ [ 7, 0, 0, 0 ], [ 11, 0, 0, 0 ] ]
+12 [ [ 8, 0, 0, 0 ], [ 15, 0, 0, 0 ] ]
+13 [ [ 9, 0, 0, 0 ], [ 20, 0, 0, 0 ] ]
+14 [ [ 10, 0, 0, 0 ], [ 26, 0, 0, 0 ] ]
+15 [ [ 11, 0, 0, 0 ], [ 33, 0, 0, 0 ] ]
+16 [ [ 12, 0, 0, 0 ], [ 41, 0, 0, 0 ] ]
+17 [ [ 13, 0, 0, 0 ], [ 50, 0, 0, 0 ] ]
+18 [ [ 14, 0, 0, 0 ], [ 60, 0, 0, 0 ] ]
+19 [ [ 15, 0, 0, 0 ], [ 71, 0, 0, 0 ] ]
+20 [ [ 16, 0, 0, 0 ], [ 83, 0, 0, 0 ] ]
+21 [ [ 17, 0, 0, 0 ], [ 96, 0, 0, 0 ] ]
+22 [ [ 18, 0, 0, 0 ], [ 110, 0, 0, 0 ] ]
+23 [ [ 19, 0, 0, 0 ], [ 125, 0, 0, 0 ] ]
+24 [ [ 20, 0, 0, 0 ], [ 141, 0, 0, 0 ] ]
+**************************
+
+0
+#16
+[ [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ], null, true ] ]
+1 Before Prune 1
+1 After  Prune 1
+2 Before Prune 1
+2 After  Prune 1
+3 Before Prune 1
+3 After  Prune 1
+4 Before Prune 1
+4 After  Prune 1
+5 Before Prune 2
+5 After  Prune 2
+6 Before Prune 2
+6 After  Prune 2
+7 Before Prune 2
+7 After  Prune 2
+8 Before Prune 3
+8 After  Prune 3
+9 Before Prune 5
+9 After  Prune 5
+10 Before Prune 8
+10 After  Prune 8
+11 Before Prune 11
+11 After  Prune 11
+12 Before Prune 24
+12 After  Prune 24
+13 Before Prune 41
+13 After  Prune 40
+14 Before Prune 81
+14 After  Prune 78
+15 Before Prune 143
+15 After  Prune 135
+16 Before Prune 264
+16 After  Prune 247
+17 Before Prune 450
+17 After  Prune 412
+18 Before Prune 797
+18 After  Prune 725
+19 Before Prune 1562
+19 After  Prune 1414
+20 Before Prune 3432
+20 After  Prune 3051
+21 Before Prune 7776
+21 After  Prune 6951
+22 Before Prune 18393
+22 After  Prune 15874
+23 Before Prune 41611
+23 After  Prune 35396
+24 Before Prune 92470
+24 After  Prune 92470
+max: 0 [
+  [ 18, 0, 0, 0 ],
+  [ 96, 0, 0, 0 ],
+  [
+    [ 17, 0, 0, 0 ],
+    [ 83, 0, 0, 0 ],
+    [ [Array], [Array], [Array], true ],
+    true
+  ],
+  true
+]
+
+**************************
+0 [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ] ]
+1 [ [ 1, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+2 [ [ 1, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+3 [ [ 1, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+4 [ [ 1, 0, 0, 0 ], [ 4, 0, 0, 0 ] ]
+5 [ [ 2, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+6 [ [ 2, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+7 [ [ 2, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+8 [ [ 3, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+9 [ [ 3, 0, 0, 0 ], [ 6, 0, 0, 0 ] ]
+10 [ [ 4, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+11 [ [ 5, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+12 [ [ 6, 0, 0, 0 ], [ 6, 0, 0, 0 ] ]
+13 [ [ 7, 0, 0, 0 ], [ 8, 0, 0, 0 ] ]
+14 [ [ 8, 0, 0, 0 ], [ 11, 0, 0, 0 ] ]
+15 [ [ 9, 0, 0, 0 ], [ 15, 0, 0, 0 ] ]
+16 [ [ 10, 0, 0, 0 ], [ 20, 0, 0, 0 ] ]
+17 [ [ 11, 0, 0, 0 ], [ 26, 0, 0, 0 ] ]
+18 [ [ 12, 0, 0, 0 ], [ 33, 0, 0, 0 ] ]
+19 [ [ 13, 0, 0, 0 ], [ 41, 0, 0, 0 ] ]
+20 [ [ 14, 0, 0, 0 ], [ 50, 0, 0, 0 ] ]
+21 [ [ 15, 0, 0, 0 ], [ 60, 0, 0, 0 ] ]
+22 [ [ 16, 0, 0, 0 ], [ 71, 0, 0, 0 ] ]
+23 [ [ 17, 0, 0, 0 ], [ 83, 0, 0, 0 ] ]
+24 [ [ 18, 0, 0, 0 ], [ 96, 0, 0, 0 ] ]
+**************************
+
+0
+#17
+[ [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ], null, true ] ]
+1 Before Prune 1
+1 After  Prune 1
+2 Before Prune 1
+2 After  Prune 1
+3 Before Prune 1
+3 After  Prune 1
+4 Before Prune 1
+4 After  Prune 1
+5 Before Prune 2
+5 After  Prune 2
+6 Before Prune 2
+6 After  Prune 2
+7 Before Prune 2
+7 After  Prune 2
+8 Before Prune 3
+8 After  Prune 3
+9 Before Prune 5
+9 After  Prune 5
+10 Before Prune 8
+10 After  Prune 8
+11 Before Prune 11
+11 After  Prune 11
+12 Before Prune 24
+12 After  Prune 24
+13 Before Prune 41
+13 After  Prune 40
+14 Before Prune 85
+14 After  Prune 82
+15 Before Prune 153
+15 After  Prune 145
+16 Before Prune 341
+16 After  Prune 323
+17 Before Prune 789
+17 After  Prune 744
+18 Before Prune 2103
+18 After  Prune 1953
+19 Before Prune 5457
+19 After  Prune 4923
+20 Before Prune 14135
+20 After  Prune 12416
+21 Before Prune 34190
+21 After  Prune 29200
+22 Before Prune 80414
+22 After  Prune 66952
+23 Before Prune 179315
+23 After  Prune 712
+24 Before Prune 2827
+24 After  Prune 2827
+max: 1 [
+  [ 7, 5, 5, 1 ],
+  [ 16, 20, 10, 1 ],
+  [
+    [ 6, 5, 5, 1 ],
+    [ 14, 15, 5, 0 ],
+    [ [Array], [Array], [Array], true ],
+    true
+  ],
+  true
+]
+
+**************************
+0 [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ] ]
+1 [ [ 1, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+2 [ [ 1, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+3 [ [ 1, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+4 [ [ 1, 0, 0, 0 ], [ 4, 0, 0, 0 ] ]
+5 [ [ 2, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+6 [ [ 2, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+7 [ [ 2, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+8 [ [ 3, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+9 [ [ 3, 0, 0, 0 ], [ 6, 0, 0, 0 ] ]
+10 [ [ 4, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+11 [ [ 4, 1, 0, 0 ], [ 5, 0, 0, 0 ] ]
+12 [ [ 4, 2, 0, 0 ], [ 5, 1, 0, 0 ] ]
+13 [ [ 4, 3, 0, 0 ], [ 5, 3, 0, 0 ] ]
+14 [ [ 4, 4, 0, 0 ], [ 5, 6, 0, 0 ] ]
+15 [ [ 4, 5, 0, 0 ], [ 5, 10, 0, 0 ] ]
+16 [ [ 4, 5, 1, 0 ], [ 5, 8, 0, 0 ] ]
+17 [ [ 5, 5, 1, 0 ], [ 5, 13, 1, 0 ] ]
+18 [ [ 5, 5, 2, 0 ], [ 6, 11, 2, 0 ] ]
+19 [ [ 5, 5, 3, 0 ], [ 7, 9, 4, 0 ] ]
+20 [ [ 5, 5, 4, 0 ], [ 8, 7, 7, 0 ] ]
+21 [ [ 5, 5, 5, 0 ], [ 9, 5, 11, 0 ] ]
+22 [ [ 6, 5, 5, 0 ], [ 10, 10, 16, 0 ] ]
+23 [ [ 6, 5, 5, 1 ], [ 14, 15, 5, 0 ] ]
+24 [ [ 7, 5, 5, 1 ], [ 16, 20, 10, 1 ] ]
+**************************
+
+1
+#18
+[ [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ], null, true ] ]
+1 Before Prune 1
+1 After  Prune 1
+2 Before Prune 1
+2 After  Prune 1
+3 Before Prune 1
+3 After  Prune 1
+4 Before Prune 2
+4 After  Prune 2
+5 Before Prune 2
+5 After  Prune 2
+6 Before Prune 3
+6 After  Prune 3
+7 Before Prune 3
+7 After  Prune 3
+8 Before Prune 6
+8 After  Prune 6
+9 Before Prune 11
+9 After  Prune 11
+10 Before Prune 21
+10 After  Prune 21
+11 Before Prune 40
+11 After  Prune 39
+12 Before Prune 79
+12 After  Prune 75
+13 Before Prune 145
+13 After  Prune 136
+14 Before Prune 258
+14 After  Prune 239
+15 Before Prune 443
+15 After  Prune 406
+16 Before Prune 745
+16 After  Prune 675
+17 Before Prune 1388
+17 After  Prune 1254
+18 Before Prune 2933
+18 After  Prune 2629
+19 Before Prune 6533
+19 After  Prune 5773
+20 Before Prune 15261
+20 After  Prune 13468
+21 Before Prune 35535
+21 After  Prune 30146
+22 Before Prune 79070
+22 After  Prune 65926
+23 Before Prune 171009
+23 After  Prune 139669
+24 Before Prune 358585
+24 After  Prune 358585
+max: 0 [
+  [ 20, 0, 0, 0 ],
+  [ 141, 0, 0, 0 ],
+  [
+    [ 19, 0, 0, 0 ],
+    [ 125, 0, 0, 0 ],
+    [ [Array], [Array], [Array], true ],
+    true
+  ],
+  true
+]
+
+**************************
+0 [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ] ]
+1 [ [ 1, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+2 [ [ 1, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+3 [ [ 1, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+4 [ [ 2, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+5 [ [ 2, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+6 [ [ 3, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+7 [ [ 3, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+8 [ [ 4, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+9 [ [ 5, 0, 0, 0 ], [ 6, 0, 0, 0 ] ]
+10 [ [ 6, 0, 0, 0 ], [ 8, 0, 0, 0 ] ]
+11 [ [ 7, 0, 0, 0 ], [ 11, 0, 0, 0 ] ]
+12 [ [ 8, 0, 0, 0 ], [ 15, 0, 0, 0 ] ]
+13 [ [ 9, 0, 0, 0 ], [ 20, 0, 0, 0 ] ]
+14 [ [ 10, 0, 0, 0 ], [ 26, 0, 0, 0 ] ]
+15 [ [ 11, 0, 0, 0 ], [ 33, 0, 0, 0 ] ]
+16 [ [ 12, 0, 0, 0 ], [ 41, 0, 0, 0 ] ]
+17 [ [ 13, 0, 0, 0 ], [ 50, 0, 0, 0 ] ]
+18 [ [ 14, 0, 0, 0 ], [ 60, 0, 0, 0 ] ]
+19 [ [ 15, 0, 0, 0 ], [ 71, 0, 0, 0 ] ]
+20 [ [ 16, 0, 0, 0 ], [ 83, 0, 0, 0 ] ]
+21 [ [ 17, 0, 0, 0 ], [ 96, 0, 0, 0 ] ]
+22 [ [ 18, 0, 0, 0 ], [ 110, 0, 0, 0 ] ]
+23 [ [ 19, 0, 0, 0 ], [ 125, 0, 0, 0 ] ]
+24 [ [ 20, 0, 0, 0 ], [ 141, 0, 0, 0 ] ]
+**************************
+
+0
+#19
+[ [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ], null, true ] ]
+1 Before Prune 1
+1 After  Prune 1
+2 Before Prune 1
+2 After  Prune 1
+3 Before Prune 1
+3 After  Prune 1
+4 Before Prune 2
+4 After  Prune 2
+5 Before Prune 2
+5 After  Prune 2
+6 Before Prune 2
+6 After  Prune 2
+7 Before Prune 4
+7 After  Prune 4
+8 Before Prune 5
+8 After  Prune 5
+9 Before Prune 9
+9 After  Prune 9
+10 Before Prune 14
+10 After  Prune 14
+11 Before Prune 24
+11 After  Prune 24
+12 Before Prune 47
+12 After  Prune 46
+13 Before Prune 100
+13 After  Prune 100
+14 Before Prune 234
+14 After  Prune 231
+15 Before Prune 591
+15 After  Prune 574
+16 Before Prune 1562
+16 After  Prune 1502
+17 Before Prune 4233
+17 After  Prune 3979
+18 Before Prune 11425
+18 After  Prune 157
+19 Before Prune 555
+19 After  Prune 27
+20 Before Prune 49
+20 After  Prune 4
+21 Before Prune 9
+21 After  Prune 2
+22 Before Prune 4
+22 After  Prune 1
+23 Before Prune 2
+23 After  Prune 2
+24 Before Prune 4
+24 After  Prune 4
+max: 15 [
+  [ 1, 2, 5, 3 ],
+  [ 2, 12, 15, 15 ],
+  [
+    [ 1, 2, 5, 3 ],
+    [ 1, 10, 10, 12 ],
+    [ [Array], [Array], [Array], true ],
+    true
+  ],
+  false
+]
+
+**************************
+0 [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ] ]
+1 [ [ 1, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+2 [ [ 1, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+3 [ [ 1, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+4 [ [ 1, 1, 0, 0 ], [ 1, 0, 0, 0 ] ]
+5 [ [ 1, 1, 0, 0 ], [ 2, 1, 0, 0 ] ]
+6 [ [ 1, 1, 0, 0 ], [ 3, 2, 0, 0 ] ]
+7 [ [ 1, 2, 0, 0 ], [ 1, 3, 0, 0 ] ]
+8 [ [ 1, 2, 0, 0 ], [ 2, 5, 0, 0 ] ]
+9 [ [ 1, 2, 1, 0 ], [ 1, 2, 0, 0 ] ]
+10 [ [ 1, 2, 1, 0 ], [ 2, 4, 1, 0 ] ]
+11 [ [ 1, 2, 1, 0 ], [ 3, 6, 2, 0 ] ]
+12 [ [ 1, 2, 2, 0 ], [ 2, 3, 3, 0 ] ]
+13 [ [ 1, 2, 2, 0 ], [ 3, 5, 5, 0 ] ]
+14 [ [ 1, 2, 3, 0 ], [ 2, 2, 7, 0 ] ]
+15 [ [ 1, 2, 3, 0 ], [ 3, 4, 10, 0 ] ]
+16 [ [ 1, 2, 3, 1 ], [ 2, 6, 3, 0 ] ]
+17 [ [ 1, 2, 4, 1 ], [ 1, 3, 6, 1 ] ]
+18 [ [ 1, 2, 4, 1 ], [ 2, 5, 10, 2 ] ]
+19 [ [ 1, 2, 4, 2 ], [ 1, 7, 4, 3 ] ]
+20 [ [ 1, 2, 4, 2 ], [ 2, 9, 8, 5 ] ]
+21 [ [ 1, 2, 4, 2 ], [ 3, 11, 12, 7 ] ]
+22 [ [ 1, 2, 4, 3 ], [ 2, 13, 6, 9 ] ]
+23 [ [ 1, 2, 5, 3 ], [ 1, 10, 10, 12 ] ]
+24 [ [ 1, 2, 5, 3 ], [ 2, 12, 15, 15 ] ]
+**************************
+
+15
+#20
+[ [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ], null, true ] ]
+1 Before Prune 1
+1 After  Prune 1
+2 Before Prune 1
+2 After  Prune 1
+3 Before Prune 2
+3 After  Prune 2
+4 Before Prune 2
+4 After  Prune 2
+5 Before Prune 3
+5 After  Prune 3
+6 Before Prune 4
+6 After  Prune 4
+7 Before Prune 7
+7 After  Prune 7
+8 Before Prune 14
+8 After  Prune 14
+9 Before Prune 31
+9 After  Prune 31
+10 Before Prune 63
+10 After  Prune 62
+11 Before Prune 127
+11 After  Prune 122
+12 Before Prune 240
+12 After  Prune 225
+13 Before Prune 435
+13 After  Prune 401
+14 Before Prune 766
+14 After  Prune 698
+15 Before Prune 1555
+15 After  Prune 1412
+16 Before Prune 3498
+16 After  Prune 3137
+17 Before Prune 8388
+17 After  Prune 7440
+18 Before Prune 20150
+18 After  Prune 17462
+19 Before Prune 47227
+19 After  Prune 39852
+20 Before Prune 106422
+20 After  Prune 842
+21 Before Prune 3341
+21 After  Prune 3121
+22 Before Prune 10030
+22 After  Prune 72
+23 Before Prune 288
+23 After  Prune 283
+24 Before Prune 922
+24 After  Prune 922
+max: 6 [
+  [ 9, 7, 4, 2 ],
+  [ 37, 42, 12, 6 ],
+  [
+    [ 8, 7, 4, 2 ],
+    [ 31, 35, 8, 4 ],
+    [ [Array], [Array], [Array], true ],
+    true
+  ],
+  true
+]
+
+**************************
+0 [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ] ]
+1 [ [ 1, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+2 [ [ 1, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+3 [ [ 2, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+4 [ [ 2, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+5 [ [ 3, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+6 [ [ 4, 0, 0, 0 ], [ 4, 0, 0, 0 ] ]
+7 [ [ 4, 1, 0, 0 ], [ 4, 0, 0, 0 ] ]
+8 [ [ 4, 2, 0, 0 ], [ 4, 1, 0, 0 ] ]
+9 [ [ 4, 3, 0, 0 ], [ 4, 3, 0, 0 ] ]
+10 [ [ 4, 4, 0, 0 ], [ 4, 6, 0, 0 ] ]
+11 [ [ 4, 5, 0, 0 ], [ 4, 10, 0, 0 ] ]
+12 [ [ 4, 6, 0, 0 ], [ 4, 15, 0, 0 ] ]
+13 [ [ 4, 7, 0, 0 ], [ 4, 21, 0, 0 ] ]
+14 [ [ 4, 7, 1, 0 ], [ 5, 14, 0, 0 ] ]
+15 [ [ 5, 7, 1, 0 ], [ 7, 21, 1, 0 ] ]
+16 [ [ 5, 7, 2, 0 ], [ 9, 14, 2, 0 ] ]
+17 [ [ 5, 7, 3, 0 ], [ 11, 7, 4, 0 ] ]
+18 [ [ 6, 7, 3, 0 ], [ 14, 14, 7, 0 ] ]
+19 [ [ 6, 7, 4, 0 ], [ 17, 7, 10, 0 ] ]
+20 [ [ 6, 7, 4, 1 ], [ 19, 14, 5, 0 ] ]
+21 [ [ 7, 7, 4, 1 ], [ 23, 21, 9, 1 ] ]
+22 [ [ 7, 7, 4, 2 ], [ 26, 28, 4, 2 ] ]
+23 [ [ 8, 7, 4, 2 ], [ 31, 35, 8, 4 ] ]
+24 [ [ 9, 7, 4, 2 ], [ 37, 42, 12, 6 ] ]
+**************************
+
+6
+#21
+[ [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ], null, true ] ]
+1 Before Prune 1
+1 After  Prune 1
+2 Before Prune 1
+2 After  Prune 1
+3 Before Prune 1
+3 After  Prune 1
+4 Before Prune 2
+4 After  Prune 2
+5 Before Prune 2
+5 After  Prune 2
+6 Before Prune 3
+6 After  Prune 3
+7 Before Prune 5
+7 After  Prune 5
+8 Before Prune 8
+8 After  Prune 8
+9 Before Prune 17
+9 After  Prune 17
+10 Before Prune 30
+10 After  Prune 30
+11 Before Prune 61
+11 After  Prune 58
+12 Before Prune 117
+12 After  Prune 109
+13 Before Prune 202
+13 After  Prune 186
+14 Before Prune 349
+14 After  Prune 315
+15 Before Prune 616
+15 After  Prune 554
+16 Before Prune 1211
+16 After  Prune 1091
+17 Before Prune 2649
+17 After  Prune 2353
+18 Before Prune 6087
+18 After  Prune 5386
+19 Before Prune 14010
+19 After  Prune 12066
+20 Before Prune 31633
+20 After  Prune 26748
+21 Before Prune 69247
+21 After  Prune 57576
+22 Before Prune 146547
+22 After  Prune 119022
+23 Before Prune 301564
+23 After  Prune 241720
+24 Before Prune 605380
+24 After  Prune 605380
+max: 0 [
+  [ 20, 0, 0, 0 ],
+  [ 141, 0, 0, 0 ],
+  [
+    [ 19, 0, 0, 0 ],
+    [ 125, 0, 0, 0 ],
+    [ [Array], [Array], [Array], true ],
+    true
+  ],
+  true
+]
+
+**************************
+0 [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ] ]
+1 [ [ 1, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+2 [ [ 1, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+3 [ [ 1, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+4 [ [ 2, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+5 [ [ 2, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+6 [ [ 3, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+7 [ [ 3, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+8 [ [ 4, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+9 [ [ 5, 0, 0, 0 ], [ 6, 0, 0, 0 ] ]
+10 [ [ 6, 0, 0, 0 ], [ 8, 0, 0, 0 ] ]
+11 [ [ 7, 0, 0, 0 ], [ 11, 0, 0, 0 ] ]
+12 [ [ 8, 0, 0, 0 ], [ 15, 0, 0, 0 ] ]
+13 [ [ 9, 0, 0, 0 ], [ 20, 0, 0, 0 ] ]
+14 [ [ 10, 0, 0, 0 ], [ 26, 0, 0, 0 ] ]
+15 [ [ 11, 0, 0, 0 ], [ 33, 0, 0, 0 ] ]
+16 [ [ 12, 0, 0, 0 ], [ 41, 0, 0, 0 ] ]
+17 [ [ 13, 0, 0, 0 ], [ 50, 0, 0, 0 ] ]
+18 [ [ 14, 0, 0, 0 ], [ 60, 0, 0, 0 ] ]
+19 [ [ 15, 0, 0, 0 ], [ 71, 0, 0, 0 ] ]
+20 [ [ 16, 0, 0, 0 ], [ 83, 0, 0, 0 ] ]
+21 [ [ 17, 0, 0, 0 ], [ 96, 0, 0, 0 ] ]
+22 [ [ 18, 0, 0, 0 ], [ 110, 0, 0, 0 ] ]
+23 [ [ 19, 0, 0, 0 ], [ 125, 0, 0, 0 ] ]
+24 [ [ 20, 0, 0, 0 ], [ 141, 0, 0, 0 ] ]
+**************************
+
+0
+#22
+[ [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ], null, true ] ]
+1 Before Prune 1
+1 After  Prune 1
+2 Before Prune 1
+2 After  Prune 1
+3 Before Prune 1
+3 After  Prune 1
+4 Before Prune 2
+4 After  Prune 2
+5 Before Prune 2
+5 After  Prune 2
+6 Before Prune 2
+6 After  Prune 2
+7 Before Prune 4
+7 After  Prune 4
+8 Before Prune 5
+8 After  Prune 5
+9 Before Prune 8
+9 After  Prune 8
+10 Before Prune 12
+10 After  Prune 12
+11 Before Prune 20
+11 After  Prune 20
+12 Before Prune 37
+12 After  Prune 36
+13 Before Prune 66
+13 After  Prune 66
+14 Before Prune 126
+14 After  Prune 124
+15 Before Prune 251
+15 After  Prune 240
+16 Before Prune 508
+16 After  Prune 484
+17 Before Prune 1072
+17 After  Prune 1009
+18 Before Prune 2454
+18 After  Prune 2296
+19 Before Prune 6070
+19 After  Prune 5612
+20 Before Prune 15244
+20 After  Prune 13742
+21 Before Prune 37576
+21 After  Prune 598
+22 Before Prune 2231
+22 After  Prune 195
+23 Before Prune 559
+23 After  Prune 53
+24 Before Prune 200
+24 After  Prune 200
+max: 5 [
+  [ 1, 4, 3, 2 ],
+  [ 2, 18, 7, 5 ],
+  [
+    [ 1, 4, 3, 2 ],
+    [ 1, 14, 4, 3 ],
+    [ [Array], [Array], [Array], false ],
+    true
+  ],
+  false
+]
+
+**************************
+0 [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ] ]
+1 [ [ 1, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+2 [ [ 1, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+3 [ [ 1, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+4 [ [ 1, 1, 0, 0 ], [ 1, 0, 0, 0 ] ]
+5 [ [ 1, 1, 0, 0 ], [ 2, 1, 0, 0 ] ]
+6 [ [ 1, 1, 0, 0 ], [ 3, 2, 0, 0 ] ]
+7 [ [ 1, 2, 0, 0 ], [ 1, 3, 0, 0 ] ]
+8 [ [ 1, 2, 0, 0 ], [ 2, 5, 0, 0 ] ]
+9 [ [ 1, 2, 0, 0 ], [ 3, 7, 0, 0 ] ]
+10 [ [ 1, 3, 0, 0 ], [ 1, 9, 0, 0 ] ]
+11 [ [ 1, 3, 0, 0 ], [ 2, 12, 0, 0 ] ]
+12 [ [ 1, 3, 0, 0 ], [ 3, 15, 0, 0 ] ]
+13 [ [ 1, 3, 1, 0 ], [ 2, 4, 0, 0 ] ]
+14 [ [ 1, 3, 1, 0 ], [ 3, 7, 1, 0 ] ]
+15 [ [ 1, 4, 1, 0 ], [ 1, 10, 2, 0 ] ]
+16 [ [ 1, 4, 1, 0 ], [ 2, 14, 3, 0 ] ]
+17 [ [ 1, 4, 2, 0 ], [ 1, 4, 4, 0 ] ]
+18 [ [ 1, 4, 2, 0 ], [ 2, 8, 6, 0 ] ]
+19 [ [ 1, 4, 2, 0 ], [ 3, 12, 8, 0 ] ]
+20 [ [ 1, 4, 2, 1 ], [ 2, 16, 3, 0 ] ]
+21 [ [ 1, 4, 3, 1 ], [ 1, 6, 5, 1 ] ]
+22 [ [ 1, 4, 3, 1 ], [ 2, 10, 8, 2 ] ]
+23 [ [ 1, 4, 3, 2 ], [ 1, 14, 4, 3 ] ]
+24 [ [ 1, 4, 3, 2 ], [ 2, 18, 7, 5 ] ]
+**************************
+
+5
+#23
+[ [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ], null, true ] ]
+1 Before Prune 1
+1 After  Prune 1
+2 Before Prune 1
+2 After  Prune 1
+3 Before Prune 1
+3 After  Prune 1
+4 Before Prune 2
+4 After  Prune 2
+5 Before Prune 2
+5 After  Prune 2
+6 Before Prune 2
+6 After  Prune 2
+7 Before Prune 4
+7 After  Prune 4
+8 Before Prune 5
+8 After  Prune 5
+9 Before Prune 8
+9 After  Prune 8
+10 Before Prune 12
+10 After  Prune 12
+11 Before Prune 20
+11 After  Prune 20
+12 Before Prune 37
+12 After  Prune 36
+13 Before Prune 65
+13 After  Prune 65
+14 Before Prune 124
+14 After  Prune 122
+15 Before Prune 238
+15 After  Prune 227
+16 Before Prune 440
+16 After  Prune 416
+17 Before Prune 804
+17 After  Prune 749
+18 Before Prune 1609
+18 After  Prune 1486
+19 Before Prune 3416
+19 After  Prune 3142
+20 Before Prune 7769
+20 After  Prune 7075
+21 Before Prune 18399
+21 After  Prune 16477
+22 Before Prune 43330
+22 After  Prune 37634
+23 Before Prune 98224
+23 After  Prune 83050
+24 Before Prune 214250
+24 After  Prune 214250
+max: 0 [
+  [ 1, 7, 0, 0 ],
+  [ 3, 77, 0, 0 ],
+  [
+    [ 1, 7, 0, 0 ],
+    [ 2, 70, 0, 0 ],
+    [ [Array], [Array], [Array], true ],
+    false
+  ],
+  false
+]
+
+**************************
+0 [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ] ]
+1 [ [ 1, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+2 [ [ 1, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+3 [ [ 1, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+4 [ [ 1, 1, 0, 0 ], [ 1, 0, 0, 0 ] ]
+5 [ [ 1, 1, 0, 0 ], [ 2, 1, 0, 0 ] ]
+6 [ [ 1, 1, 0, 0 ], [ 3, 2, 0, 0 ] ]
+7 [ [ 1, 2, 0, 0 ], [ 1, 3, 0, 0 ] ]
+8 [ [ 1, 2, 0, 0 ], [ 2, 5, 0, 0 ] ]
+9 [ [ 1, 2, 0, 0 ], [ 3, 7, 0, 0 ] ]
+10 [ [ 1, 3, 0, 0 ], [ 1, 9, 0, 0 ] ]
+11 [ [ 1, 3, 0, 0 ], [ 2, 12, 0, 0 ] ]
+12 [ [ 1, 3, 0, 0 ], [ 3, 15, 0, 0 ] ]
+13 [ [ 1, 4, 0, 0 ], [ 1, 18, 0, 0 ] ]
+14 [ [ 1, 4, 0, 0 ], [ 2, 22, 0, 0 ] ]
+15 [ [ 1, 4, 0, 0 ], [ 3, 26, 0, 0 ] ]
+16 [ [ 1, 5, 0, 0 ], [ 1, 30, 0, 0 ] ]
+17 [ [ 1, 5, 0, 0 ], [ 2, 35, 0, 0 ] ]
+18 [ [ 1, 5, 0, 0 ], [ 3, 40, 0, 0 ] ]
+19 [ [ 1, 6, 0, 0 ], [ 1, 45, 0, 0 ] ]
+20 [ [ 1, 6, 0, 0 ], [ 2, 51, 0, 0 ] ]
+21 [ [ 1, 6, 0, 0 ], [ 3, 57, 0, 0 ] ]
+22 [ [ 1, 7, 0, 0 ], [ 1, 63, 0, 0 ] ]
+23 [ [ 1, 7, 0, 0 ], [ 2, 70, 0, 0 ] ]
+24 [ [ 1, 7, 0, 0 ], [ 3, 77, 0, 0 ] ]
+**************************
+
+0
+#24
+[ [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ], null, true ] ]
+1 Before Prune 1
+1 After  Prune 1
+2 Before Prune 1
+2 After  Prune 1
+3 Before Prune 2
+3 After  Prune 2
+4 Before Prune 2
+4 After  Prune 2
+5 Before Prune 3
+5 After  Prune 3
+6 Before Prune 4
+6 After  Prune 4
+7 Before Prune 7
+7 After  Prune 7
+8 Before Prune 14
+8 After  Prune 14
+9 Before Prune 31
+9 After  Prune 31
+10 Before Prune 63
+10 After  Prune 62
+11 Before Prune 127
+11 After  Prune 122
+12 Before Prune 240
+12 After  Prune 225
+13 Before Prune 435
+13 After  Prune 401
+14 Before Prune 749
+14 After  Prune 681
+15 Before Prune 1260
+15 After  Prune 1135
+16 Before Prune 2304
+16 After  Prune 2068
+17 Before Prune 4733
+17 After  Prune 4189
+18 Before Prune 10355
+18 After  Prune 9085
+19 Before Prune 23347
+19 After  Prune 20128
+20 Before Prune 52153
+20 After  Prune 43942
+21 Before Prune 113013
+21 After  Prune 93196
+22 Before Prune 237534
+22 After  Prune 192318
+23 Before Prune 485650
+23 After  Prune 385417
+24 Before Prune 962629
+24 After  Prune 962629
+max: 0 [
+  [ 22, 0, 0, 0 ],
+  [ 193, 0, 0, 0 ],
+  [
+    [ 21, 0, 0, 0 ],
+    [ 174, 0, 0, 0 ],
+    [ [Array], [Array], [Array], true ],
+    true
+  ],
+  true
+]
+
+**************************
+0 [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ] ]
+1 [ [ 1, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+2 [ [ 1, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+3 [ [ 2, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+4 [ [ 2, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+5 [ [ 3, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+6 [ [ 4, 0, 0, 0 ], [ 4, 0, 0, 0 ] ]
+7 [ [ 5, 0, 0, 0 ], [ 6, 0, 0, 0 ] ]
+8 [ [ 6, 0, 0, 0 ], [ 9, 0, 0, 0 ] ]
+9 [ [ 7, 0, 0, 0 ], [ 13, 0, 0, 0 ] ]
+10 [ [ 8, 0, 0, 0 ], [ 18, 0, 0, 0 ] ]
+11 [ [ 9, 0, 0, 0 ], [ 24, 0, 0, 0 ] ]
+12 [ [ 10, 0, 0, 0 ], [ 31, 0, 0, 0 ] ]
+13 [ [ 11, 0, 0, 0 ], [ 39, 0, 0, 0 ] ]
+14 [ [ 12, 0, 0, 0 ], [ 48, 0, 0, 0 ] ]
+15 [ [ 13, 0, 0, 0 ], [ 58, 0, 0, 0 ] ]
+16 [ [ 14, 0, 0, 0 ], [ 69, 0, 0, 0 ] ]
+17 [ [ 15, 0, 0, 0 ], [ 81, 0, 0, 0 ] ]
+18 [ [ 16, 0, 0, 0 ], [ 94, 0, 0, 0 ] ]
+19 [ [ 17, 0, 0, 0 ], [ 108, 0, 0, 0 ] ]
+20 [ [ 18, 0, 0, 0 ], [ 123, 0, 0, 0 ] ]
+21 [ [ 19, 0, 0, 0 ], [ 139, 0, 0, 0 ] ]
+22 [ [ 20, 0, 0, 0 ], [ 156, 0, 0, 0 ] ]
+23 [ [ 21, 0, 0, 0 ], [ 174, 0, 0, 0 ] ]
+24 [ [ 22, 0, 0, 0 ], [ 193, 0, 0, 0 ] ]
+**************************
+
+0
+#25
+[ [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ], null, true ] ]
+1 Before Prune 1
+1 After  Prune 1
+2 Before Prune 1
+2 After  Prune 1
+3 Before Prune 1
+3 After  Prune 1
+4 Before Prune 2
+4 After  Prune 2
+5 Before Prune 2
+5 After  Prune 2
+6 Before Prune 3
+6 After  Prune 3
+7 Before Prune 3
+7 After  Prune 3
+8 Before Prune 6
+8 After  Prune 6
+9 Before Prune 11
+9 After  Prune 11
+10 Before Prune 21
+10 After  Prune 21
+11 Before Prune 40
+11 After  Prune 39
+12 Before Prune 79
+12 After  Prune 75
+13 Before Prune 145
+13 After  Prune 136
+14 Before Prune 263
+14 After  Prune 244
+15 Before Prune 521
+15 After  Prune 482
+16 Before Prune 1206
+16 After  Prune 1115
+17 Before Prune 3030
+17 After  Prune 2765
+18 Before Prune 7730
+18 After  Prune 6887
+19 Before Prune 19181
+19 After  Prune 16628
+20 Before Prune 45860
+20 After  Prune 415
+21 Before Prune 1654
+21 After  Prune 1604
+22 Before Prune 5193
+22 After  Prune 20
+23 Before Prune 80
+23 After  Prune 80
+24 Before Prune 260
+24 After  Prune 260
+max: 6 [
+  [ 7, 7, 4, 2 ],
+  [ 16, 42, 12, 6 ],
+  [
+    [ 6, 7, 4, 2 ],
+    [ 13, 35, 8, 4 ],
+    [ [Array], [Array], [Array], true ],
+    true
+  ],
+  true
+]
+
+**************************
+0 [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ] ]
+1 [ [ 1, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+2 [ [ 1, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+3 [ [ 1, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+4 [ [ 2, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+5 [ [ 2, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+6 [ [ 3, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+7 [ [ 3, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+8 [ [ 4, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+9 [ [ 4, 1, 0, 0 ], [ 5, 0, 0, 0 ] ]
+10 [ [ 4, 2, 0, 0 ], [ 5, 1, 0, 0 ] ]
+11 [ [ 4, 3, 0, 0 ], [ 5, 3, 0, 0 ] ]
+12 [ [ 4, 4, 0, 0 ], [ 5, 6, 0, 0 ] ]
+13 [ [ 4, 5, 0, 0 ], [ 5, 10, 0, 0 ] ]
+14 [ [ 4, 6, 0, 0 ], [ 5, 15, 0, 0 ] ]
+15 [ [ 4, 6, 1, 0 ], [ 6, 11, 0, 0 ] ]
+16 [ [ 4, 6, 2, 0 ], [ 7, 7, 1, 0 ] ]
+17 [ [ 4, 7, 2, 0 ], [ 7, 13, 3, 0 ] ]
+18 [ [ 4, 7, 3, 0 ], [ 8, 10, 5, 0 ] ]
+19 [ [ 4, 7, 4, 0 ], [ 9, 7, 8, 0 ] ]
+20 [ [ 4, 7, 4, 1 ], [ 9, 14, 4, 0 ] ]
+21 [ [ 5, 7, 4, 1 ], [ 10, 21, 8, 1 ] ]
+22 [ [ 5, 7, 4, 2 ], [ 11, 28, 4, 2 ] ]
+23 [ [ 6, 7, 4, 2 ], [ 13, 35, 8, 4 ] ]
+24 [ [ 7, 7, 4, 2 ], [ 16, 42, 12, 6 ] ]
+**************************
+
+6
+#26
+[ [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ], null, true ] ]
+1 Before Prune 1
+1 After  Prune 1
+2 Before Prune 1
+2 After  Prune 1
+3 Before Prune 1
+3 After  Prune 1
+4 Before Prune 1
+4 After  Prune 1
+5 Before Prune 2
+5 After  Prune 2
+6 Before Prune 2
+6 After  Prune 2
+7 Before Prune 2
+7 After  Prune 2
+8 Before Prune 3
+8 After  Prune 3
+9 Before Prune 5
+9 After  Prune 5
+10 Before Prune 8
+10 After  Prune 8
+11 Before Prune 11
+11 After  Prune 11
+12 Before Prune 25
+12 After  Prune 25
+13 Before Prune 41
+13 After  Prune 40
+14 Before Prune 81
+14 After  Prune 78
+15 Before Prune 167
+15 After  Prune 159
+16 Before Prune 336
+16 After  Prune 318
+17 Before Prune 764
+17 After  Prune 720
+18 Before Prune 1954
+18 After  Prune 1821
+19 Before Prune 5060
+19 After  Prune 4600
+20 Before Prune 12978
+20 After  Prune 11454
+21 Before Prune 31799
+21 After  Prune 233
+22 Before Prune 844
+22 After  Prune 42
+23 Before Prune 71
+23 After  Prune 71
+24 Before Prune 181
+24 After  Prune 181
+max: 4 [
+  [ 5, 2, 3, 1 ],
+  [ 7, 10, 13, 4 ],
+  [
+    [ 4, 2, 3, 1 ],
+    [ 7, 8, 10, 3 ],
+    [ [Array], [Array], [Array], true ],
+    false
+  ],
+  true
+]
+
+**************************
+0 [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ] ]
+1 [ [ 1, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+2 [ [ 1, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+3 [ [ 1, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+4 [ [ 1, 0, 0, 0 ], [ 4, 0, 0, 0 ] ]
+5 [ [ 1, 1, 0, 0 ], [ 1, 0, 0, 0 ] ]
+6 [ [ 1, 1, 0, 0 ], [ 2, 1, 0, 0 ] ]
+7 [ [ 1, 1, 0, 0 ], [ 3, 2, 0, 0 ] ]
+8 [ [ 1, 1, 0, 0 ], [ 4, 3, 0, 0 ] ]
+9 [ [ 1, 2, 0, 0 ], [ 1, 4, 0, 0 ] ]
+10 [ [ 1, 2, 0, 0 ], [ 2, 6, 0, 0 ] ]
+11 [ [ 1, 2, 0, 0 ], [ 3, 8, 0, 0 ] ]
+12 [ [ 1, 2, 1, 0 ], [ 2, 2, 0, 0 ] ]
+13 [ [ 1, 2, 1, 0 ], [ 3, 4, 1, 0 ] ]
+14 [ [ 1, 2, 1, 0 ], [ 4, 6, 2, 0 ] ]
+15 [ [ 2, 2, 1, 0 ], [ 1, 8, 3, 0 ] ]
+16 [ [ 2, 2, 1, 0 ], [ 3, 10, 4, 0 ] ]
+17 [ [ 2, 2, 2, 0 ], [ 3, 4, 5, 0 ] ]
+18 [ [ 2, 2, 2, 0 ], [ 5, 6, 7, 0 ] ]
+19 [ [ 3, 2, 2, 0 ], [ 3, 8, 9, 0 ] ]
+20 [ [ 3, 2, 2, 1 ], [ 3, 10, 2, 0 ] ]
+21 [ [ 3, 2, 3, 1 ], [ 4, 4, 4, 1 ] ]
+22 [ [ 4, 2, 3, 1 ], [ 3, 6, 7, 2 ] ]
+23 [ [ 4, 2, 3, 1 ], [ 7, 8, 10, 3 ] ]
+24 [ [ 5, 2, 3, 1 ], [ 7, 10, 13, 4 ] ]
+**************************
+
+4
+#27
+[ [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ], null, true ] ]
+1 Before Prune 1
+1 After  Prune 1
+2 Before Prune 1
+2 After  Prune 1
+3 Before Prune 1
+3 After  Prune 1
+4 Before Prune 2
+4 After  Prune 2
+5 Before Prune 2
+5 After  Prune 2
+6 Before Prune 3
+6 After  Prune 3
+7 Before Prune 3
+7 After  Prune 3
+8 Before Prune 6
+8 After  Prune 6
+9 Before Prune 11
+9 After  Prune 11
+10 Before Prune 21
+10 After  Prune 21
+11 Before Prune 40
+11 After  Prune 39
+12 Before Prune 79
+12 After  Prune 75
+13 Before Prune 145
+13 After  Prune 136
+14 Before Prune 258
+14 After  Prune 239
+15 Before Prune 447
+15 After  Prune 410
+16 Before Prune 809
+16 After  Prune 738
+17 Before Prune 1694
+17 After  Prune 1531
+18 Before Prune 3859
+18 After  Prune 3477
+19 Before Prune 9328
+19 After  Prune 8275
+20 Before Prune 22322
+20 After  Prune 19363
+21 Before Prune 51866
+21 After  Prune 43737
+22 Before Prune 115558
+22 After  Prune 95482
+23 Before Prune 249701
+23 After  Prune 589
+24 Before Prune 2342
+24 After  Prune 2342
+max: 1 [
+  [ 9, 7, 3, 1 ],
+  [ 38, 35, 6, 1 ],
+  [
+    [ 8, 7, 3, 1 ],
+    [ 33, 28, 3, 0 ],
+    [ [Array], [Array], [Array], true ],
+    true
+  ],
+  true
+]
+
+**************************
+0 [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ] ]
+1 [ [ 1, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+2 [ [ 1, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+3 [ [ 1, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+4 [ [ 2, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+5 [ [ 2, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+6 [ [ 3, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+7 [ [ 3, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+8 [ [ 4, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+9 [ [ 4, 1, 0, 0 ], [ 5, 0, 0, 0 ] ]
+10 [ [ 4, 2, 0, 0 ], [ 5, 1, 0, 0 ] ]
+11 [ [ 4, 3, 0, 0 ], [ 5, 3, 0, 0 ] ]
+12 [ [ 4, 4, 0, 0 ], [ 5, 6, 0, 0 ] ]
+13 [ [ 4, 5, 0, 0 ], [ 5, 10, 0, 0 ] ]
+14 [ [ 5, 5, 0, 0 ], [ 6, 15, 0, 0 ] ]
+15 [ [ 5, 5, 1, 0 ], [ 9, 5, 0, 0 ] ]
+16 [ [ 5, 6, 1, 0 ], [ 10, 10, 1, 0 ] ]
+17 [ [ 5, 7, 1, 0 ], [ 11, 16, 2, 0 ] ]
+18 [ [ 5, 7, 2, 0 ], [ 14, 8, 3, 0 ] ]
+19 [ [ 6, 7, 2, 0 ], [ 16, 15, 5, 0 ] ]
+20 [ [ 6, 7, 3, 0 ], [ 20, 7, 7, 0 ] ]
+21 [ [ 7, 7, 3, 0 ], [ 23, 14, 10, 0 ] ]
+22 [ [ 8, 7, 3, 0 ], [ 27, 21, 13, 0 ] ]
+23 [ [ 8, 7, 3, 1 ], [ 33, 28, 3, 0 ] ]
+24 [ [ 9, 7, 3, 1 ], [ 38, 35, 6, 1 ] ]
+**************************
+
+1
+#28
+[ [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ], null, true ] ]
+1 Before Prune 1
+1 After  Prune 1
+2 Before Prune 1
+2 After  Prune 1
+3 Before Prune 1
+3 After  Prune 1
+4 Before Prune 1
+4 After  Prune 1
+5 Before Prune 2
+5 After  Prune 2
+6 Before Prune 2
+6 After  Prune 2
+7 Before Prune 2
+7 After  Prune 2
+8 Before Prune 3
+8 After  Prune 3
+9 Before Prune 5
+9 After  Prune 5
+10 Before Prune 8
+10 After  Prune 8
+11 Before Prune 11
+11 After  Prune 11
+12 Before Prune 24
+12 After  Prune 24
+13 Before Prune 41
+13 After  Prune 40
+14 Before Prune 81
+14 After  Prune 78
+15 Before Prune 143
+15 After  Prune 135
+16 Before Prune 264
+16 After  Prune 247
+17 Before Prune 456
+17 After  Prune 418
+18 Before Prune 875
+18 After  Prune 798
+19 Before Prune 1828
+19 After  Prune 1660
+20 Before Prune 4228
+20 After  Prune 3784
+21 Before Prune 9989
+21 After  Prune 8884
+22 Before Prune 23876
+22 After  Prune 20470
+23 Before Prune 54182
+23 After  Prune 45716
+24 Before Prune 119564
+24 After  Prune 119564
+max: 0 [
+  [ 18, 0, 0, 0 ],
+  [ 96, 0, 0, 0 ],
+  [
+    [ 17, 0, 0, 0 ],
+    [ 83, 0, 0, 0 ],
+    [ [Array], [Array], [Array], true ],
+    true
+  ],
+  true
+]
+
+**************************
+0 [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ] ]
+1 [ [ 1, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+2 [ [ 1, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+3 [ [ 1, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+4 [ [ 1, 0, 0, 0 ], [ 4, 0, 0, 0 ] ]
+5 [ [ 2, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+6 [ [ 2, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+7 [ [ 2, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+8 [ [ 3, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+9 [ [ 3, 0, 0, 0 ], [ 6, 0, 0, 0 ] ]
+10 [ [ 4, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+11 [ [ 5, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+12 [ [ 6, 0, 0, 0 ], [ 6, 0, 0, 0 ] ]
+13 [ [ 7, 0, 0, 0 ], [ 8, 0, 0, 0 ] ]
+14 [ [ 8, 0, 0, 0 ], [ 11, 0, 0, 0 ] ]
+15 [ [ 9, 0, 0, 0 ], [ 15, 0, 0, 0 ] ]
+16 [ [ 10, 0, 0, 0 ], [ 20, 0, 0, 0 ] ]
+17 [ [ 11, 0, 0, 0 ], [ 26, 0, 0, 0 ] ]
+18 [ [ 12, 0, 0, 0 ], [ 33, 0, 0, 0 ] ]
+19 [ [ 13, 0, 0, 0 ], [ 41, 0, 0, 0 ] ]
+20 [ [ 14, 0, 0, 0 ], [ 50, 0, 0, 0 ] ]
+21 [ [ 15, 0, 0, 0 ], [ 60, 0, 0, 0 ] ]
+22 [ [ 16, 0, 0, 0 ], [ 71, 0, 0, 0 ] ]
+23 [ [ 17, 0, 0, 0 ], [ 83, 0, 0, 0 ] ]
+24 [ [ 18, 0, 0, 0 ], [ 96, 0, 0, 0 ] ]
+**************************
+
+0
+#29
+[ [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ], null, true ] ]
+1 Before Prune 1
+1 After  Prune 1
+2 Before Prune 1
+2 After  Prune 1
+3 Before Prune 1
+3 After  Prune 1
+4 Before Prune 2
+4 After  Prune 2
+5 Before Prune 2
+5 After  Prune 2
+6 Before Prune 3
+6 After  Prune 3
+7 Before Prune 3
+7 After  Prune 3
+8 Before Prune 6
+8 After  Prune 6
+9 Before Prune 11
+9 After  Prune 11
+10 Before Prune 21
+10 After  Prune 21
+11 Before Prune 40
+11 After  Prune 39
+12 Before Prune 82
+12 After  Prune 78
+13 Before Prune 156
+13 After  Prune 147
+14 Before Prune 357
+14 After  Prune 337
+15 Before Prune 894
+15 After  Prune 835
+16 Before Prune 2414
+16 After  Prune 2230
+17 Before Prune 6410
+17 After  Prune 5749
+18 Before Prune 16402
+18 After  Prune 14267
+19 Before Prune 40139
+19 After  Prune 34031
+20 Before Prune 93896
+20 After  Prune 4085
+21 Before Prune 16123
+21 After  Prune 658
+22 Before Prune 1983
+22 After  Prune 316
+23 Before Prune 1244
+23 After  Prune 4
+24 Before Prune 16
+24 After  Prune 16
+max: 8 [
+  [ 6, 5, 6, 3 ],
+  [ 15, 29, 12, 8 ],
+  [
+    [ 5, 5, 6, 3 ],
+    [ 13, 24, 6, 5 ],
+    [ [Array], [Array], [Array], true ],
+    true
+  ],
+  true
+]
+
+**************************
+0 [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ] ]
+1 [ [ 1, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+2 [ [ 1, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+3 [ [ 1, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+4 [ [ 2, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+5 [ [ 2, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+6 [ [ 3, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+7 [ [ 3, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+8 [ [ 3, 1, 0, 0 ], [ 4, 0, 0, 0 ] ]
+9 [ [ 4, 1, 0, 0 ], [ 4, 1, 0, 0 ] ]
+10 [ [ 4, 2, 0, 0 ], [ 4, 2, 0, 0 ] ]
+11 [ [ 4, 3, 0, 0 ], [ 4, 4, 0, 0 ] ]
+12 [ [ 4, 4, 0, 0 ], [ 4, 7, 0, 0 ] ]
+13 [ [ 4, 4, 1, 0 ], [ 5, 5, 0, 0 ] ]
+14 [ [ 4, 5, 1, 0 ], [ 5, 9, 1, 0 ] ]
+15 [ [ 4, 5, 2, 0 ], [ 6, 8, 2, 0 ] ]
+16 [ [ 4, 5, 3, 0 ], [ 7, 7, 4, 0 ] ]
+17 [ [ 4, 5, 4, 0 ], [ 8, 6, 7, 0 ] ]
+18 [ [ 4, 5, 5, 0 ], [ 9, 5, 11, 0 ] ]
+19 [ [ 4, 5, 5, 1 ], [ 9, 10, 5, 0 ] ]
+20 [ [ 4, 5, 6, 1 ], [ 10, 9, 10, 1 ] ]
+21 [ [ 5, 5, 6, 1 ], [ 11, 14, 16, 2 ] ]
+22 [ [ 5, 5, 6, 2 ], [ 12, 19, 11, 3 ] ]
+23 [ [ 5, 5, 6, 3 ], [ 13, 24, 6, 5 ] ]
+24 [ [ 6, 5, 6, 3 ], [ 15, 29, 12, 8 ] ]
+**************************
+
+8
+#30
+[ [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ], null, true ] ]
+1 Before Prune 1
+1 After  Prune 1
+2 Before Prune 1
+2 After  Prune 1
+3 Before Prune 1
+3 After  Prune 1
+4 Before Prune 2
+4 After  Prune 2
+5 Before Prune 2
+5 After  Prune 2
+6 Before Prune 3
+6 After  Prune 3
+7 Before Prune 5
+7 After  Prune 5
+8 Before Prune 8
+8 After  Prune 8
+9 Before Prune 17
+9 After  Prune 17
+10 Before Prune 30
+10 After  Prune 30
+11 Before Prune 61
+11 After  Prune 58
+12 Before Prune 117
+12 After  Prune 109
+13 Before Prune 202
+13 After  Prune 186
+14 Before Prune 349
+14 After  Prune 315
+15 Before Prune 577
+15 After  Prune 516
+16 Before Prune 998
+16 After  Prune 895
+17 Before Prune 1952
+17 After  Prune 1726
+18 Before Prune 4117
+18 After  Prune 3637
+19 Before Prune 9090
+19 After  Prune 7890
+20 Before Prune 20100
+20 After  Prune 17225
+21 Before Prune 43706
+21 After  Prune 36756
+22 Before Prune 92538
+22 After  Prune 76182
+23 Before Prune 190293
+23 After  Prune 155197
+24 Before Prune 383429
+24 After  Prune 383429
+max: 0 [
+  [ 20, 0, 0, 0 ],
+  [ 141, 0, 0, 0 ],
+  [
+    [ 19, 0, 0, 0 ],
+    [ 125, 0, 0, 0 ],
+    [ [Array], [Array], [Array], true ],
+    true
+  ],
+  true
+]
+
+**************************
+0 [ [ 1, 0, 0, 0 ], [ 0, 0, 0, 0 ] ]
+1 [ [ 1, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+2 [ [ 1, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+3 [ [ 1, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+4 [ [ 2, 0, 0, 0 ], [ 1, 0, 0, 0 ] ]
+5 [ [ 2, 0, 0, 0 ], [ 3, 0, 0, 0 ] ]
+6 [ [ 3, 0, 0, 0 ], [ 2, 0, 0, 0 ] ]
+7 [ [ 3, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+8 [ [ 4, 0, 0, 0 ], [ 5, 0, 0, 0 ] ]
+9 [ [ 5, 0, 0, 0 ], [ 6, 0, 0, 0 ] ]
+10 [ [ 6, 0, 0, 0 ], [ 8, 0, 0, 0 ] ]
+11 [ [ 7, 0, 0, 0 ], [ 11, 0, 0, 0 ] ]
+12 [ [ 8, 0, 0, 0 ], [ 15, 0, 0, 0 ] ]
+13 [ [ 9, 0, 0, 0 ], [ 20, 0, 0, 0 ] ]
+14 [ [ 10, 0, 0, 0 ], [ 26, 0, 0, 0 ] ]
+15 [ [ 11, 0, 0, 0 ], [ 33, 0, 0, 0 ] ]
+16 [ [ 12, 0, 0, 0 ], [ 41, 0, 0, 0 ] ]
+17 [ [ 13, 0, 0, 0 ], [ 50, 0, 0, 0 ] ]
+18 [ [ 14, 0, 0, 0 ], [ 60, 0, 0, 0 ] ]
+19 [ [ 15, 0, 0, 0 ], [ 71, 0, 0, 0 ] ]
+20 [ [ 16, 0, 0, 0 ], [ 83, 0, 0, 0 ] ]
+21 [ [ 17, 0, 0, 0 ], [ 96, 0, 0, 0 ] ]
+22 [ [ 18, 0, 0, 0 ], [ 110, 0, 0, 0 ] ]
+23 [ [ 19, 0, 0, 0 ], [ 125, 0, 0, 0 ] ]
+24 [ [ 20, 0, 0, 0 ], [ 141, 0, 0, 0 ] ]
+**************************
+
+0
+answer: 1389
