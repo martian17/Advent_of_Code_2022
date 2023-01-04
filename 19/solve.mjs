@@ -1,19 +1,23 @@
 import * as fs from "fs";
-import {MultiMap} from "../ds-js/multimap.mjs";
+import {MultiMapAlpha} from "../ds-js/multimap.mjs";
+const MultiMap = MultiMapAlpha;
 import {mapFromEntries} from "../ds-js/maputil.mjs";
-import {newarr,arrcpy} from "../ds-js/arrutil.mjs";
+import {newarr,arrcpy,arreq} from "../ds-js/arrutil.mjs";
 import {vecadd,vecaddi,vecsubi,vecsub,vecLarger,vecLargerEqual} from "../ds-js/vecutil.mjs";
 
-let test = true;
+let test = false;
 
 let str = (fs.readFileSync(test?"./test.txt":"./data.txt")+"").trim();
-
-//let kinds = "ore clay obsidian geode".split(" ");
 
 let ORE = 0;
 let CLAY = 1;
 let OBSIDIAN = 2;
 let GEODE = 3;
+
+let ROBOTS = 0;
+let RSS = 1;
+let PREV = 2;
+let CHG_FLG = 3;
 
 let rssmap = mapFromEntries("ore clay obsidian geode".split(" ").map((v,i)=>[v,i]))
 
@@ -31,9 +35,70 @@ let blueprints = str.split("\n").map(l=>{
     });
     return kinds;
 });
+//blueprints -> schemas -> schema
 
-//console.log(JSON.stringify(blueprints,0,4));
+let rssEnoughForSchema = function(rss,schema){
+    for(let i = 0; i < rss.length; i++){
+        if(rss[i] < schema[i])return false;
+    }
+    return true;
+};
 
+let advanceState = function(schemas,state,states1){
+    let [robots,rss,prev] = state;
+    let stayFlag = false;
+    for(let i = 0; i < schemas.length; i++){
+        let schema = schemas[i];
+        let isEnough = rssEnoughForSchema(rss,schema);
+        if(!isEnough && !stayFlag){
+            let producable = true;
+            for(let j = 0; j < robots.length; j++){
+                if(schema[j] && !robots[j]){
+                    producable = false;
+                    break;//no production capacity even if you wait
+                }
+            }
+            if(producable)stayFlag = true;
+        }
+        if(
+            isEnough &&
+            (state[CHG_FLG] || !rssEnoughForSchema(prev[RSS],schema))
+        ){
+            let robots1 = arrcpy(robots);
+            let rss1 = arrcpy(rss);
+            vecaddi(rss1,robots1);
+            vecsubi(rss1,schema);
+            
+            robots1[i]++;
+            states1.push([robots1,rss1,state,true]);
+            if(arreq(robots,[1,3,1,0]) && arreq(rss,[2,4,0,0])){
+                console.log("ss",[robots1,rss1,state,true]);
+            }
+        }
+    }
+    if(stayFlag){
+        let robots1 = arrcpy(robots);
+        let rss1 = arrcpy(rss);
+        vecaddi(rss1,robots1);
+        states1.push([robots1,rss1,state,false]);
+    }
+};
+
+let displayState = function(state){
+    let result = [];
+    for(let s = state; s; s = s[2]){
+        result.push(s);
+    }
+    result.reverse();
+    console.log("");
+    console.log("**************************");
+    for(let i = 0; i < result.length; i++){
+        let s = result[i];
+        console.log(i,s.slice(0,2));
+    }
+    console.log("**************************");
+    console.log("");
+};
 
 let stateAtLeast = function(schemas,state,remtime){
     let [robots,rss] = state;
@@ -65,106 +130,75 @@ let stateAtMost = function(schemas,state,remtime){
 };
 
 
-let pruneStates = function(schemas,states,remtime){
-    //delete duplicate states
+let pruneStates = function(schemas,states,t,maxt){
+    let remtime = maxt-t;
+    if(t === 10){
+        for(let state of states){
+            let [robots,rss] = state;
+            if(arreq(robots,[1,3,0,0]) && arreq(rss,[4,15,0,0])){
+                console.log(state);
+            }
+        }
+    }else if(t === 11){
+        for(let state of states){
+            let [robots,rss] = state;
+            if(arreq(robots,[1,3,1,0]) && arreq(rss,[2,4,0,0])){
+                console.log(state);
+            }
+        }
+    }else if(t === 12){
+        for(let state of states){
+            let [robots,rss] = state;
+            if(arreq(robots,[1,4,1,0]) && arreq(rss,[1,7,1,0])){
+            //if(arreq(states[PREV][ROBOTS],[1,3,1,0]) && arreq(states[PREV][RSS],[2,4,0,0])){
+                console.log(state);
+            }
+        }
+    }
+    
     let scache = new MultiMap;
-    let gmin = -1;
-    let ss;
-    let s1 = [];
+    let cutoff = -1;
+    let maxstate;
+    let states1 = [];
     for(let state of states){
         let [robots,rss] = state;
         if(scache.has(...robots,...rss))continue;
-        s1.push(state);
+        states1.push(state);
         scache.set(...robots,...rss,1);
-        let gval = stateAtLeast(schemas,state,remtime);
-        if(gmin < gval){
-            gmin = gval;//minimum threshold
-            ss = state;
+        let score = stateAtLeast(schemas,state,remtime);
+        if(cutoff < score){
+            cutoff = score;//minimum threshold
+            maxstate = state;
         }
     }
-    states = s1;
+    states = states1;
     
-    if(remtime === 4){
-        displayState(ss);
-    }
-    
-    stateAtMost(schemas,ss,remtime)
-    console.log(`gmin: ${gmin}`);
-    console.log(`rem: ${remtime}`);
-    console.log("least",stateAtLeast(schemas,ss,remtime));
-    console.log("most",stateAtMost(schemas,ss,remtime));
-    console.log("ss",ss);
-    
-    s1 = [];
+    states1 = [];
     for(let state of states){
-        let gval = stateAtMost(schemas,state,remtime);
-        if(gval >= gmin){
-            s1.push(state);
-        }
+        if(stateAtMost(schemas,state,remtime) < cutoff)continue;
+        states1.push(state);
     }
-    states = s1;
+    states = states1;
     
-    //delete objectively worse states
-    /*outer:
-    for(let state of states){
-        for(let state1 of states){
-            if(state1 === state)continue;
-            if(vecLarger(state1[0],state[0]) &&
-               vecLarger(state1[1],state[1])
-            ){
-                continue outer;
-            }
-        }
-        s1.push(state);
-    }*/
     return states;
-};
+}
 
-let displayState = function(state){
-    let result = [];
-    for(let s = state; s; s = s[2]){
-        result.push(s);
-    }
-    result.reverse();
-    console.log("");
-    console.log("**************************");
-    for(let i = 0; i < result.length; i++){
-        let s = result[i];
-        console.log(i,s.slice(0,2));
-    }
-    console.log("**************************");
-    console.log("");
-};
 
-let calculateOptimalMove = function(schemas,robots){
-    console.log(schemas);
-    let stateCache = new MultiMap;
-    let states = [];
-    states.push([robots,newarr(4)]);//robots, resources
-    let tmax = 24;
-    for(let t = 1; t <= tmax; t++){
-        console.log(t,states.length);
+let solve = function(schemas,robots0,rss0,maxt){
+    let states = [[robots0,rss0,null,true]];
+    console.log(states);
+    for(let t = 1; t <= maxt; t++){
         let states1 = [];
         for(let state of states){
-            let [robots,rss] = state;
-            let rss1 = vecadd(rss,robots);
-            //console.log(rss,robots,rss1);
-            states1.push([robots,rss1,state]);
-            for(let rssid = 0; rssid <= GEODE; rssid++){
-                let schema = schemas[rssid];
-                if(!vecLargerEqual(rss,schema))continue;
-                let robots1 = arrcpy(robots);
-                robots1[rssid]++;
-                //console.log("robots",robots,robots1);
-                states1.push([robots1,vecsub(rss1,schema),state]);
-            }
+            advanceState(schemas,state,states1);
         }
-        states = pruneStates(schemas,states1,tmax-t);
-        //console.log(`states at ${t}:`,states);
-        //if(t === 23){
-        //    console.log(states.filter(s=>s[0][OBSIDIAN] > 0));
-        //    return;
-        //}
+        console.log(t,"Before Prune",states1.length);
+        if(t === 24){
+            states = states1;
+        }else{
+            states = pruneStates(schemas,states1,t,maxt);
+        }
+        console.log(t,"After  Prune",states.length);
     }
     let maxstate;
     let maxscore = -1;
@@ -177,8 +211,21 @@ let calculateOptimalMove = function(schemas,robots){
     }
     console.log("max:",maxscore,maxstate);
     displayState(maxstate);
+    return maxscore;
 };
 
-let rmap = newarr(4);
-rmap[ORE] = 1;
-calculateOptimalMove(blueprints[0],rmap);
+//console.log(solve(blueprints[1],[1,0,0,0],[0,0,0,0],24));
+
+
+let sum = 0;
+for(let i = 0; i < blueprints.length; i++){
+    console.log(`#${i+1}`);
+    let score = solve(blueprints[i],[1,0,0,0],[0,0,0,0],24);
+    console.log(score);
+    sum += score*(i+1);
+}
+console.log("answer:",sum);
+
+
+
+

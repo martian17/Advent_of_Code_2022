@@ -1,6 +1,9 @@
+//you need to run it with the following
+//$ node solve2.mjs --max-old-space-size=4096
+
 import * as fs from "fs";
-import {MultiMapAlpha} from "../ds-js/multimap.mjs";
-const MultiMap = MultiMapAlpha;
+import {MultiMap/*Alpha*/} from "../ds-js/multimap.mjs";
+//const MultiMap = MultiMapAlpha;
 import {mapFromEntries} from "../ds-js/maputil.mjs";
 import {newarr,arrcpy,arreq} from "../ds-js/arrutil.mjs";
 import {vecadd,vecaddi,vecsubi,vecsub,vecLarger,vecLargerEqual} from "../ds-js/vecutil.mjs";
